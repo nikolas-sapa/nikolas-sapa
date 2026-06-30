@@ -2,6 +2,15 @@
 
 Builder. AI tools and infrastructure. Greece.
 
+![TypeScript](https://img.shields.io/badge/TypeScript-0B0B0D?style=flat-square&logo=typescript&logoColor=F3F2EE)
+![Python](https://img.shields.io/badge/Python-0B0B0D?style=flat-square&logo=python&logoColor=F3F2EE)
+![Swift](https://img.shields.io/badge/Swift-0B0B0D?style=flat-square&logo=swift&logoColor=F3F2EE)
+![Next.js](https://img.shields.io/badge/Next.js-0B0B0D?style=flat-square&logo=nextdotjs&logoColor=F3F2EE)
+![React](https://img.shields.io/badge/React-0B0B0D?style=flat-square&logo=react&logoColor=F3F2EE)
+![Node.js](https://img.shields.io/badge/Node.js-0B0B0D?style=flat-square&logo=nodedotjs&logoColor=F3F2EE)
+![Solidity](https://img.shields.io/badge/Solidity-0B0B0D?style=flat-square&logo=solidity&logoColor=F3F2EE)
+![Vercel](https://img.shields.io/badge/Vercel-0B0B0D?style=flat-square&logo=vercel&logoColor=F3F2EE)
+
 ---
 
 ### What I'm building
@@ -16,12 +25,6 @@ Builder. AI tools and infrastructure. Greece.
 | [**neurolens**](https://github.com/nikolas-sapa/neurolens) | Score any ad creative across 8 brain regions before you spend a dollar promoting it |
 | [**clientcast**](https://github.com/nikolas-sapa/clientcast) | AI-drafted client updates from your Git commits — hosted approval, scope-creep alerts |
 | [**branch-obsidian**](https://github.com/nikolas-sapa/branch-obsidian) | Obsidian plugin — embed branch-ai reasoning trees in your notes |
-
----
-
-### Stack
-
-TypeScript · Python · Swift · Next.js · Vercel · Mantle
 
 ---
 
