@@ -23,6 +23,8 @@ Builder + marketer. I ship precise, fast products across developer tools, AI inf
 | [**clientcast**](https://github.com/nikolas-sapa/clientcast) | Turn Git commits into AI-drafted client updates; classify replies, flag scope creep, invoice flagged work via Stripe | `npm i -g clientcast` · [site](https://clientcast-landing.vercel.app) |
 | [**toolfence**](https://github.com/nikolas-sapa/toolfence) | Security scanner for MCP servers — flags tool poisoning, prompt injection, drift, scope & cost before your agents connect | `npx toolfence <url>` · [site](https://mcpguard-site.vercel.app) |
 | [**sigeval**](https://github.com/nikolas-sapa/sigeval) | pytest for LLMs that isn't flaky — significance-tested eval regression gates so you don't ship on noise | [docs](https://nikolas-sapa.github.io/sigeval/) |
+| [**ns-ui**](https://github.com/nikolas-sapa/ns-ui) | 170 React components built one at a time, each earning its place — Tailwind v4 + Motion + r3f, agent-installable | `npx shadcn add` · [registry](https://design.helpmarq.com) |
+| [**agentic-pipeline**](https://github.com/nikolas-sapa/agentic-pipeline) | Event-driven LLM request pipeline (Postgres queue, idempotent ingress, retry/DLQ/replay) — plus the benchmark that killed its own cost-routing feature | [repo](https://github.com/nikolas-sapa/agentic-pipeline) |
 | [**x402-bounty-radar**](https://x402-bounty-radar.nikolas-sapalidis.workers.dev) | Paid API for real, funded GitHub bounties — scam-filtered, competition-scored, $0.01/call in USDC via x402, no key, no KYC | [live](https://x402-bounty-radar.nikolas-sapalidis.workers.dev) |
 
 ### SaaS & web products
@@ -48,6 +50,7 @@ Builder + marketer. I ship precise, fast products across developer tools, AI inf
 | Project | What it does | |
 |---|---|---|
 | [**sac-capital**](https://github.com/nikolas-sapa/sac-capital) | Verifiable AI trading agent — multi-stage LLM equity research with on-chain bytes32 commitments on Mantle, paper execution, full audit trail | [sapa-fund.vercel.app](https://sapa-fund.vercel.app) |
+| [**curb**](https://github.com/nikolas-sapa/curb) | Your bank card has a daily limit, your wallet doesn't — a Monad vault that caps daily outflow: lowering is instant, raising is timelocked | [curb-pink.vercel.app](https://curb-pink.vercel.app) |
 
 ---
 
