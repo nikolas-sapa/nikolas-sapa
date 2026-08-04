@@ -13,11 +13,11 @@ Builder + marketer. I ship precise, fast products across developer tools, AI inf
 
 ---
 
-### ns-ui — 266 React components, installed as source
+### ns-ui — React components, installed as source
 
 [![registry](https://img.shields.io/badge/registry-design.helpmarq.com-006bff?style=flat-square&labelColor=0B0B0D)](https://design.helpmarq.com)
 [![license](https://img.shields.io/badge/license-MIT-0B0B0D?style=flat-square&labelColor=0B0B0D)](https://github.com/nikolas-sapa/ns-ui/blob/main/LICENSE)
-[![components](https://img.shields.io/badge/components-266-0B0B0D?style=flat-square&labelColor=0B0B0D)](https://github.com/nikolas-sapa/ns-ui)
+[![components](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnikolas-sapa%2Fns-ui%2Fmain%2Fregistry.json&query=%24.items.length&label=components&style=flat-square&labelColor=0B0B0D&color=0B0B0D)](https://github.com/nikolas-sapa/ns-ui)
 
 The project I keep coming back to. Every component is built one at a time around a
 single interaction, gated by a Playwright suite that refuses regressions — and it
