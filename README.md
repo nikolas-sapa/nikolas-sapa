@@ -13,6 +13,27 @@ Builder + marketer. I ship precise, fast products across developer tools, AI inf
 
 ---
 
+### ns-ui — 266 React components, installed as source
+
+[![registry](https://img.shields.io/badge/registry-design.helpmarq.com-006bff?style=flat-square&labelColor=0B0B0D)](https://design.helpmarq.com)
+[![license](https://img.shields.io/badge/license-MIT-0B0B0D?style=flat-square&labelColor=0B0B0D)](https://github.com/nikolas-sapa/ns-ui/blob/main/LICENSE)
+[![components](https://img.shields.io/badge/components-266-0B0B0D?style=flat-square&labelColor=0B0B0D)](https://github.com/nikolas-sapa/ns-ui)
+
+The project I keep coming back to. Every component is built one at a time around a
+single interaction, gated by a Playwright suite that refuses regressions — and it
+installs as plain source you own, not a package you depend on.
+
+```bash
+npx shadcn add https://design.helpmarq.com/r/gallery-coverflow-caustic.json
+```
+
+Tailwind v4 · Motion · react-three-fiber · shadcn-compatible registry · CLI + MCP server
+for agent-driven installs.
+
+**[Browse the registry](https://design.helpmarq.com)** · **[Source](https://github.com/nikolas-sapa/ns-ui)**
+
+---
+
 ### Developer tools & AI infrastructure
 
 | Project | What it does | Try it |
@@ -23,7 +44,6 @@ Builder + marketer. I ship precise, fast products across developer tools, AI inf
 | [**clientcast**](https://github.com/nikolas-sapa/clientcast) | Turn Git commits into AI-drafted client updates; classify replies, flag scope creep, invoice flagged work via Stripe | `npm i -g clientcast` · [site](https://clientcast-landing.vercel.app) |
 | [**toolfence**](https://github.com/nikolas-sapa/toolfence) | Security scanner for MCP servers — flags tool poisoning, prompt injection, drift, scope & cost before your agents connect | `npx toolfence <url>` · [site](https://mcpguard-site.vercel.app) |
 | [**sigeval**](https://github.com/nikolas-sapa/sigeval) | pytest for LLMs that isn't flaky — significance-tested eval regression gates so you don't ship on noise | [docs](https://nikolas-sapa.github.io/sigeval/) |
-| [**ns-ui**](https://github.com/nikolas-sapa/ns-ui) | 266 React components built one at a time, each earning its place — Tailwind v4 + Motion + r3f, agent-installable | `npx shadcn add` · [registry](https://design.helpmarq.com) |
 | [**helm**](https://github.com/nikolas-sapa/helm) | Deploy + governance control plane for internal AI agents — ship an agent in one command; IT scopes its tools, caps token spend, kills it on demand | [site](https://helm-internal-agent-platform.vercel.app) |
 | [**agentic-pipeline**](https://github.com/nikolas-sapa/agentic-pipeline) | Event-driven LLM request pipeline (Postgres queue, idempotent ingress, retry/DLQ/replay) — plus the benchmark that killed its own cost-routing feature | [repo](https://github.com/nikolas-sapa/agentic-pipeline) |
 | [**x402-bounty-radar**](https://x402-bounty-radar.nikolas-sapalidis.workers.dev) | Paid API for real, funded GitHub bounties — scam-filtered, competition-scored, $0.01/call in USDC via x402, no key, no KYC | [live](https://x402-bounty-radar.nikolas-sapalidis.workers.dev) |
