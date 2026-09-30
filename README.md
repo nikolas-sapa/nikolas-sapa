@@ -11,6 +11,8 @@ Builder + marketer. I ship precise, fast products across developer tools, AI inf
 ![Solidity](https://img.shields.io/badge/Solidity-0B0B0D?style=flat-square&logo=solidity&logoColor=F3F2EE)
 ![Vercel](https://img.shields.io/badge/Vercel-0B0B0D?style=flat-square&logo=vercel&logoColor=F3F2EE)
 
+**Now:** distributing [ns-ui](https://design.helpmarq.com) · growing [Grip](https://pypi.org/project/grip-browser/) · shipping with `/workflow` agent teams — five agents on one repo, in parallel.
+
 ---
 
 ### ns-ui — React components, installed as source
@@ -27,10 +29,34 @@ installs as plain source you own, not a package you depend on.
 npx shadcn add https://design.helpmarq.com/r/gallery-coverflow-caustic.json
 ```
 
-Tailwind v4 · Motion · react-three-fiber · shadcn-compatible registry · CLI + MCP server
-for agent-driven installs.
+Tailwind v4 · Motion · react-three-fiber · 542 components across `core` and `loud` ·
+CLI + MCP server for agent-driven installs, agent-readable via `/llms.txt`.
 
 **[Browse the registry](https://design.helpmarq.com)** · **[Source](https://github.com/nikolas-sapa/ns-ui)**
+
+---
+
+### Grip — the browser layer for AI agents
+
+[![PyPI](https://img.shields.io/pypi/v/grip-browser?style=flat-square&labelColor=0B0B0D&color=006bff)](https://pypi.org/project/grip-browser/)
+[![downloads](https://img.shields.io/pypi/dm/grip-browser?style=flat-square&labelColor=0B0B0D&color=0B0B0D)](https://pypi.org/project/grip-browser/)
+[![python](https://img.shields.io/pypi/pyversions/grip-browser?style=flat-square&labelColor=0B0B0D&color=0B0B0D)](https://pypi.org/project/grip-browser/)
+[![license](https://img.shields.io/pypi/l/grip-browser?style=flat-square&labelColor=0B0B0D&color=0B0B0D)](https://github.com/nikolas-sapa/grip-browser/blob/main/LICENSE)
+
+A CDP-native browser SDK for AI agents: turns a live page into a semantic snapshot
+your agent can act on — median ~2k tokens instead of ~59k of raw HTML (16× smaller),
+and 5× smaller than Playwright MCP. No Playwright, no Puppeteer — raw Chrome DevTools
+Protocol with stable element refs, shadow-DOM traversal, a prompt-injection guard,
+and typed error recovery.
+
+```bash
+pip install grip-browser
+```
+
+The [benchmark page](https://grip-browser.vercel.app) publishes the full run,
+including the round Grip lost, the structural cause behind it, and the 30/30 re-run.
+
+**[PyPI](https://pypi.org/project/grip-browser/)** · **[Site + benchmarks](https://grip-browser.vercel.app)** · **[Source](https://github.com/nikolas-sapa/grip-browser)**
 
 ---
 
@@ -39,7 +65,6 @@ for agent-driven installs.
 | Project | What it does | Try it |
 |---|---|---|
 | [**branch-ai**](https://github.com/nikolas-sapa/branch-ai) | Reasoning canvas for AI CLIs — capture Claude Code / Codex / Gemini extended thinking as a navigable, forkable tree | `npm i -g branch-ai` · [demo](https://branchai-fawn.vercel.app) |
-| [**grip-browser**](https://github.com/nikolas-sapa/grip-browser) | Token-efficient, CDP-native browser SDK for AI agents — ~50-token page snapshots instead of 12k of raw HTML | `pip install grip-browser` · [site](https://grip-browser.vercel.app) |
 | [**skillswitch**](https://github.com/nikolas-sapa/skillswitch) | Manage AI-coding skills across Claude Code, Gemini CLI, Codex, Aider, Amp & Droid — stop 100 skills bloating your context window | `npm i -g skillswitch` · [site](https://skillswitch-landing.vercel.app) |
 | [**clientcast**](https://github.com/nikolas-sapa/clientcast) | Turn Git commits into AI-drafted client updates; classify replies, flag scope creep, invoice flagged work via Stripe | `npm i -g clientcast` · [site](https://clientcast-landing.vercel.app) |
 | [**toolfence**](https://github.com/nikolas-sapa/toolfence) | Security scanner for MCP servers — flags tool poisoning, prompt injection, drift, scope & cost before your agents connect | `npx toolfence <url>` · [site](https://mcpguard-site.vercel.app) |
@@ -78,8 +103,12 @@ for agent-driven installs.
 
 | Contribution | Repo | Status |
 |---|---|---|
-| Fail-closed PII analysis: unsupported entities in `/analyze` now return 400 instead of being silently dropped ([#2259](https://github.com/data-privacy-stack/presidio/pull/2259)) | Microsoft Presidio | merged |
-| Docs: `RECOGNIZER_REGISTRY_CONF_FILE` override for the analyzer server (#2311) | presidio | open |
+| Warn about unsupported requested entities in `/analyze` while preserving partial results ([#2259](https://github.com/data-privacy-stack/presidio/pull/2259)) | Microsoft Presidio | merged |
+| Document `RECOGNIZER_REGISTRY_CONF_FILE` override for the analyzer server ([#2311](https://github.com/data-privacy-stack/presidio/pull/2311)) | presidio | merged |
+
+Active in issues and PRs across `oven-sh/bun`, `traefik/traefik`, `mastra-ai/mastra`,
+`withastro/astro`, `modelcontextprotocol/typescript-sdk`, `dottxt-ai/outlines`,
+`adaptive-machine-learning/CapyMOA`, `gofr-dev/gofr`, and the `unjs` ecosystem.
 
 ---
 
