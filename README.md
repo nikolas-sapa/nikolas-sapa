@@ -103,6 +103,7 @@ including the round Grip lost, the structural cause behind it, and the 30/30 re-
 
 | Contribution | Repo | Status |
 |---|---|---|
+| Reported [GHSA-c3rg-jwq9-3233](https://github.com/get-convex/convex-auth/security/advisories/GHSA-c3rg-jwq9-3233) — sign-in rate limiting bypass in `@convex-dev/auth` allowing verification-code brute force. CVSS 7.4 (High), patched in 0.0.95, credited reporter | Convex | published |
 | Warn about unsupported requested entities in `/analyze` while preserving partial results ([#2259](https://github.com/data-privacy-stack/presidio/pull/2259)) | Microsoft Presidio | merged |
 | Document `RECOGNIZER_REGISTRY_CONF_FILE` override for the analyzer server ([#2311](https://github.com/data-privacy-stack/presidio/pull/2311)) | presidio | merged |
 
