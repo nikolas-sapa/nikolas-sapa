@@ -1,4 +1,4 @@
-<img src="banner.svg" alt="Nikolas Sapalidis" width="552">
+<img src="banner.svg" alt="Nikolas Sapalidis" width="622">
 
 Builder + marketer. I ship precise, fast products across developer tools, AI infrastructure, and web apps — and market them the same day. Greece.
 
