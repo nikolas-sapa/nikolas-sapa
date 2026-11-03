@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="400" viewBox="0 0 840 400" role="img" aria-labelledby="title desc">
+  <title id="title">NIKOLAS SAPALIDIS — C / TOPOGRAPHIC TYPE</title>
+  <desc id="desc">Large geometric vector letters rise from a layered blue topographic field. Nested organic contours and ordered-dither terrain move laterally behind and across the carved name. Reduced motion freezes the terrain with the full name visible.</desc>
+  <defs>
+    <path id="name" d="M55 208V118L113 208V118M137 118H195M166 118V208M137 208H195M219 118V208M277 118L219 166L277 208M315 118H345L359 132V194L345 208H315L301 194V132ZM383 118V208H441M465 208V140L479 118H509L523 140V208M465 169H523M605 118H561L547 132V151L561 163H591L605 176V194L591 208H547M113 244H69L55 258V277L69 289H99L113 302V320L99 334H55M137 334V266L151 244H181L195 266V334M137 295H195M219 334V244H263L277 258V280L263 293H219M301 334V266L315 244H345L359 266V334M301 295H359M383 244V334H441M465 244H523M494 244V334M465 334H523M547 244H585L605 264V314L585 334H547ZM629 244H687M658 244V334M629 334H687M769 244H725L711 258V277L725 289H755L769 302V320L755 334H711"/>
+    <clipPath id="terrain-window"><rect x="36" y="84" width="768" height="272"/></clipPath>
+    <mask id="carved"><rect width="840" height="400" fill="#ededed"/><use href="#name" fill="none" stroke="#0a0a0a" stroke-width="24" stroke-linejoin="miter"/></mask>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern>
+  </defs>
+  <style>
+    .motion{animation:terrain 12s cubic-bezier(.45,0,.55,1) infinite}
+    @keyframes terrain{0%,100%{transform:translate(-42px,0)}50%{transform:translate(54px,-12px)}}
+    @media(prefers-reduced-motion:reduce){.motion{animation:none;transform:none}}
+  </style>
+  <rect width="840" height="400" fill="#0a0a0a"/>
+  <path d="M48 72H792M48 366H792" stroke="#2e2e2e"/>
+  <g font-family="'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" letter-spacing="1.2">
+    <text x="48" y="46" fill="#3291ff">C / TOPOGRAPHIC TYPE</text>
+    <text x="792" y="46" text-anchor="end" fill="#8f8f8f">03</text>
+  </g>
+  <g clip-path="url(#terrain-window)">
+    <g mask="url(#carved)">
+      <g class="motion">
+        <path d="M-100 307C82 285 87 133 249 144S445 319 600 254S770 85 944 135L944 440H-100Z" fill="url(#dither)" opacity=".58"/>
+        <g fill="none" stroke="#006bff" stroke-width="1.25"><path d="M-150 235C30 259 71 69 231 81S437 257 589 185S789 -1 1000 65" opacity=".95"/><path d="M-150 247C30 271 71 81 231 93S437 269 589 197S789 11 1000 77" opacity=".46"/><path d="M-150 259C30 283 71 93 231 105S437 281 589 209S789 23 1000 89" opacity=".46"/><path d="M-150 271C30 295 71 105 231 117S437 293 589 221S789 35 1000 101" opacity=".46"/><path d="M-150 283C30 307 71 117 231 129S437 305 589 233S789 47 1000 113" opacity=".46"/><path d="M-150 295C30 319 71 129 231 141S437 317 589 245S789 59 1000 125" opacity=".95"/><path d="M-150 307C30 331 71 141 231 153S437 329 589 257S789 71 1000 137" opacity=".46"/><path d="M-150 319C30 343 71 153 231 165S437 341 589 269S789 83 1000 149" opacity=".46"/><path d="M-150 331C30 355 71 165 231 177S437 353 589 281S789 95 1000 161" opacity=".46"/><path d="M-150 343C30 367 71 177 231 189S437 365 589 293S789 107 1000 173" opacity=".46"/><path d="M-150 355C30 379 71 189 231 201S437 377 589 305S789 119 1000 185" opacity=".95"/><path d="M-150 367C30 391 71 201 231 213S437 389 589 317S789 131 1000 197" opacity=".46"/><path d="M-150 379C30 403 71 213 231 225S437 401 589 329S789 143 1000 209" opacity=".46"/><path d="M-150 391C30 415 71 225 231 237S437 413 589 341S789 155 1000 221" opacity=".46"/><path d="M-150 403C30 427 71 237 231 249S437 425 589 353S789 167 1000 233" opacity=".46"/><path d="M-150 415C30 439 71 249 231 261S437 437 589 365S789 179 1000 245" opacity=".95"/><path d="M-150 427C30 451 71 261 231 273S437 449 589 377S789 191 1000 257" opacity=".46"/><path d="M-150 439C30 463 71 273 231 285S437 461 589 389S789 203 1000 269" opacity=".46"/><path d="M-150 451C30 475 71 285 231 297S437 473 589 401S789 215 1000 281" opacity=".46"/><path d="M-150 463C30 487 71 297 231 309S437 485 589 413S789 227 1000 293" opacity=".46"/><path d="M-150 475C30 499 71 309 231 321S437 497 589 425S789 239 1000 305" opacity=".95"/><path d="M-150 487C30 511 71 321 231 333S437 509 589 437S789 251 1000 317" opacity=".46"/><path d="M-150 499C30 523 71 333 231 345S437 521 589 449S789 263 1000 329" opacity=".46"/><path d="M-150 511C30 535 71 345 231 357S437 533 589 461S789 275 1000 341" opacity=".46"/><path d="M-150 523C30 547 71 357 231 369S437 545 589 473S789 287 1000 353" opacity=".46"/><path d="M-150 535C30 559 71 369 231 381S437 557 589 485S789 299 1000 365" opacity=".95"/></g>
+      </g>
+    </g>
+    <use href="#name" fill="none" stroke="#ededed" stroke-width="14" stroke-linejoin="miter" stroke-linecap="square" class="static"/>
+  </g>
+  <path d="M48 86v12M42 92h12M792 344v12M786 350h12" fill="none" stroke="#8f8f8f"/>
+</svg>
