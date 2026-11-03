@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="410" viewBox="0 0 840 410" role="img" aria-labelledby="title desc">
+<title id="title">About Nikolas</title>
+<desc id="desc">17. Greece. Self-taught since January 2026. I build tools for AI agents and fix bugs in the tools I use. Below the text, a dithered folded wave travels slowly sideways.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern><pattern id="silver-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#ededed"/></pattern><clipPath id="wave-window"><rect x="32" y="204" width="776" height="188"/></clipPath></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}
+.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}
+.muted{fill:#8f8f8f}
+.primary{fill:#ededed}
+.heading{fill:#ededed;font-weight:600;letter-spacing:-1.5px}
+.motion{transform-box:view-box}
+.drift{animation:drift 12s cubic-bezier(.45,0,.55,1) infinite}
+.fold{animation:fold 10s cubic-bezier(.45,0,.55,1) infinite}
+.component{animation:component 8s cubic-bezier(.16,1,.3,1) infinite}
+.scan{animation:scan 10s cubic-bezier(.45,0,.55,1) infinite}
+.packet{animation:packet 9s cubic-bezier(.4,0,.2,1) infinite}
+.toggle{animation:toggle 8s cubic-bezier(.16,1,.3,1) infinite}
+.paper{animation:paper 12s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes drift{0%,100%{transform:translate(-34px,0)}50%{transform:translate(46px,-9px)}}
+@keyframes fold{0%,100%{transform:translate(-28px,4px)}50%{transform:translate(38px,-8px)}}
+@keyframes component{0%,100%{transform:translate(0,-12px)}45%,65%{transform:translate(24px,6px)}}
+@keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(514px)}}
+@keyframes packet{0%,100%{transform:translate(0,0)}32%{transform:translate(234px,-38px)}62%,78%{transform:translate(552px,-38px)}}
+@keyframes toggle{0%,100%{transform:translateX(0)}40%,66%{transform:translateX(84px)}}
+@keyframes paper{0%,100%{transform:translate(-26px,0)}50%{transform:translate(36px,-10px)}}
+@media(prefers-reduced-motion:reduce){.motion{animation:none!important;transform:none!important}}
+</style>
+<rect width="840" height="410" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="48" font-size="32" class="muted">17. Greece. Self-taught since Jan 2026.</text>
+<text x="48" y="124" font-size="38" class="primary">I build tools for AI agents</text>
+<text x="48" y="172" font-size="38" class="primary">and fix bugs in the tools I use.</text>
+<g clip-path="url(#wave-window)"><g class="motion fold"><path d="M-90 370C65 360 135 207 270 227S463 389 617 301S802 202 942 244L942 430H-90Z" fill="url(#grain)" opacity=".72"/><path d="M-90 270C90 306 120 108 294 142S483 296 640 228S803 50 950 122" fill="none" stroke="#006bff" stroke-width="1.5" opacity=".7"/><path d="M-90 276C90 312 120 114 294 148S483 302 640 234S803 56 950 128" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 282C90 318 120 120 294 154S483 308 640 240S803 62 950 134" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 288C90 324 120 126 294 160S483 314 640 246S803 68 950 140" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 294C90 330 120 132 294 166S483 320 640 252S803 74 950 146" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 300C90 336 120 138 294 172S483 326 640 258S803 80 950 152" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 306C90 342 120 144 294 178S483 332 640 264S803 86 950 158" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 312C90 348 120 150 294 184S483 338 640 270S803 92 950 164" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 318C90 354 120 156 294 190S483 344 640 276S803 98 950 170" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 324C90 360 120 162 294 196S483 350 640 282S803 104 950 176" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 330C90 366 120 168 294 202S483 356 640 288S803 110 950 182" fill="none" stroke="#006bff" stroke-width="1.5" opacity=".7"/><path d="M-90 336C90 372 120 174 294 208S483 362 640 294S803 116 950 188" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 342C90 378 120 180 294 214S483 368 640 300S803 122 950 194" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 348C90 384 120 186 294 220S483 374 640 306S803 128 950 200" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 354C90 390 120 192 294 226S483 380 640 312S803 134 950 206" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 360C90 396 120 198 294 232S483 386 640 318S803 140 950 212" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 366C90 402 120 204 294 238S483 392 640 324S803 146 950 218" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 372C90 408 120 210 294 244S483 398 640 330S803 152 950 224" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 378C90 414 120 216 294 250S483 404 640 336S803 158 950 230" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 384C90 420 120 222 294 256S483 410 640 342S803 164 950 236" fill="none" stroke="#2e2e2e" stroke-width="1" opacity=".8"/><path d="M-90 314C80 347 118 200 287 230S479 371 640 286S800 183 950 255" fill="none" stroke="#ededed" stroke-width="1.5" opacity=".65"/><path d="M-90 326C80 359 118 212 287 242S479 383 640 298S800 195 950 267" fill="none" stroke="#006bff" stroke-width="2"/></g></g>
+
+</svg>

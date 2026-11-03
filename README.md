@@ -1,209 +1,56 @@
-<img src="banner.svg" alt="Nikolas Sapalidis" width="622">
-
-17 · Greece · self-taught since January 2026.
-
-I build tools for AI agents and fix bugs in the tools I use.
-Sometimes the bug is in the benchmark. That gets published too.
-
-<img src="assets/field-notes.svg" alt="Field notes: a folded graphite wave, rendered in ordered dither with a blue seam." width="100%">
-
-[Builds](#things-ive-shipped) · [Merged fixes](#fixes-that-landed-upstream) · [Research](#experiments-with-the-receipts) · [Numbers](#by-the-numbers) · [Contact](#say-hello)
-
-`TypeScript` · `Python` · `Swift` · `React / Next.js`
-
-## Things I've shipped
-
-<img src="assets/builds.svg" alt="Selected builds: ns-ui, components you keep; Grip, less DOM, more context; branch-ai, a debugger for the reasoning tree." width="100%">
-
-### ns-ui
-
-A shadcn-compatible registry of 542 React components, installed as source you own.
-Includes a CLI and MCP server so coding agents can find and install components.
-
-[Browse components](https://design.helpmarq.com) · [Source](https://github.com/nikolas-sapa/ns-ui)
-
-<details>
-<summary>Install a component · stack</summary>
-
-```bash
-npx shadcn add https://design.helpmarq.com/r/gallery-coverflow-caustic.json
-```
-
-Tailwind v4 · Motion · react-three-fiber · agent-readable via `/llms.txt`.
-
-</details>
-
-### Grip
-
-A Python browser SDK built directly on Chrome DevTools Protocol. It gives agents
-compact semantic snapshots, stable element references, shadow-DOM traversal,
-and typed error recovery. No Playwright or Puppeteer dependency.
-
-[PyPI](https://pypi.org/project/grip-browser/) · [Site](https://grip-browser.vercel.app) · [Source](https://github.com/nikolas-sapa/grip-browser)
-
-<details>
-<summary>Install · eight-page benchmark · the comparison I lost</summary>
-
-```bash
-pip install grip-browser
-```
-
-In the published eight-page benchmark (August 10, 2026), snapshots used a median
-1,998 tokens. The median per-page reduction was 16× versus raw HTML and 5× versus
-Playwright MCP. These measure snapshot size, not task success or end-to-end cost.
-
-[Benchmark data](https://github.com/nikolas-sapa/grip-browser/blob/main/benchmarks/RESULTS_COMPETITORS.md) ·
-[The comparison where browser-use is smaller](https://github.com/nikolas-sapa/grip-browser/blob/main/benchmarks/RESULTS_BROWSERUSE.md)
-(different page coverage, explained in the report).
-
-</details>
-
-### branch-ai
-
-Capture extended thinking from AI coding CLIs as a navigable, forkable tree.
-Rewind to a node, fork it, and explore another direction. Local-first, with an MCP server.
-
-[Demo](https://branchai-fawn.vercel.app) · [Source](https://github.com/nikolas-sapa/branch-ai) · `npm i -g branch-ai`
-
-## Fixes that landed upstream
-
-35 merged PRs across 14 other projects, covering fixes, features, tests, and docs.
-Including two directory-listing PRs: [37 merges across 16 repositories](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests).
-
-| Project | What changed |
-|---|---|
-| WebdriverIO | [A signal-terminated worker must fail the run, not pass it (#15595)](https://github.com/webdriverio/webdriverio/pull/15595) |
-| sktime | [`BaggingClassifier.fit()` must not reseed NumPy's process-global RNG (#11307)](https://github.com/sktime/sktime/pull/11307) |
-| Astro | [Vercel redirects must respect `trailingSlash: always/never` (#18085)](https://github.com/withastro/astro/pull/18085) |
-| Traefik | [Add a global default for `aliasHeadersStrategy` (#13919)](https://github.com/traefik/traefik/pull/13919) |
-| ESLint Stylistic | [Align parenthesized type values from the opening parenthesis (#1283)](https://github.com/eslint-stylistic/eslint-stylistic/pull/1283) |
-| Cap | [Optimize screenshot alpha checks, flattening, and premultiplication (#2673)](https://github.com/CapSoftware/Cap/pull/2673) |
-| CapyMOA | [Add the EDDM drift detector (#422)](https://github.com/adaptive-machine-learning/CapyMOA/pull/422) |
-| Presidio | [Preserve partial results when requested entities are unsupported (#2259)](https://github.com/data-privacy-stack/presidio/pull/2259) |
-
-Also the credited reporter of [GHSA-c3rg-jwq9-3233](https://github.com/get-convex/convex-auth/security/advisories/GHSA-c3rg-jwq9-3233):
-a high-severity sign-in rate-limiting bypass in Convex Auth, patched in `0.0.95`.
-
-## Experiments, with the receipts
-
-[Resumed-agent staleness](https://github.com/nikolas-sapa/resumed-agent-staleness):
-a pre-registered, 2,631-run study of agents acting on stale checkpoint summaries
-after checking live data. Includes transcripts, analysis, and reproduction instructions.
-
-In the tested setup, templated provenance summaries reduced stale writes;
-provenance instructions for model-written compaction did not.
-The report documents the failed approaches and scorer corrections too.
-
-## By the numbers
-
-<img src="assets/activity.svg" alt="2026 GitHub snapshot, November 3: 3,923 contributions, 432 PR contributions, 85 repositories with PR contributions. Includes my own repositories." width="100%">
-
-Snapshot: **November 3, 2026**. Since January 1: **3,923 contributions**, **432 PR contributions**,
-**85 repositories with PR contributions**, including my own repositories.
-[GitHub contribution history](https://github.com/nikolas-sapa?tab=overview&from=2026-01-01&to=2026-11-03).
-
-Three npm tools, **2,803 downloads** from **November 3, 2025 through November 3, 2026**:
-[branch-ai: 1,090](https://api.npmjs.org/downloads/point/2025-11-03:2026-11-03/branch-ai) ·
-[skillswitch: 1,160](https://api.npmjs.org/downloads/point/2025-11-03:2026-11-03/skillswitch) ·
-[clientcast: 553](https://api.npmjs.org/downloads/point/2025-11-03:2026-11-03/clientcast).
-Registry downloads include CI and automated installs; they are not unique users.
-
-<details>
-<summary>Counting method</summary>
-
-GitHub source: GraphQL `user(login: "nikolas-sapa")` →
-[`contributionsCollection(from: "2026-01-01T00:00:00Z")`](https://docs.github.com/en/graphql/reference/objects#contributionscollection),
-queried November 3, 2026. Fields: `contributionCalendar.totalContributions`,
-`totalPullRequestContributions`, `totalRepositoriesWithContributedPullRequests`.
-These are contribution counts, not an upstream-only total.
-
-Upstream merges are counted separately above, excluding my own repositories.
-The 35-PR / 14-repository figure also excludes two directory-listing PRs;
-the full figure is 37 / 16. npm links return the stated rolling-period download counts.
-
-</details>
-
----
-
-<details>
-<summary><code>ls ~/projects</code> · more developer tools</summary>
-
-| Project | What it does | Try it |
-|---|---|---|
-| [skillswitch](https://github.com/nikolas-sapa/skillswitch) | Toggle coding-agent skills and save per-project profiles | `npm i -g skillswitch` |
-| [clientcast](https://github.com/nikolas-sapa/clientcast) | Draft client updates from commits; classify replies and flag scope creep | `npm i -g clientcast` |
-| [toolfence](https://github.com/nikolas-sapa/toolfence) | Scan MCP servers for tool poisoning, prompt injection, drift, and scope risks | `npx toolfence <url>` |
-| [sigeval](https://github.com/nikolas-sapa/sigeval) | LLM evaluation gates with confidence intervals: PASS / FAIL / INCONCLUSIVE | [Docs](https://nikolas-sapa.github.io/sigeval/) |
-| [helm](https://github.com/nikolas-sapa/helm) | Deployment and governance for internal agents, with tool scopes and spend limits | [Site](https://helm-internal-agent-platform.vercel.app) |
-| [agentic-pipeline](https://github.com/nikolas-sapa/agentic-pipeline) | Postgres-backed LLM request queue with retries, dead letters, and replay | [Source](https://github.com/nikolas-sapa/agentic-pipeline) |
-| [x402-bounty-radar](https://github.com/nikolas-sapa/x402-bounty-radar) | Funded GitHub bounties ranked by competition and freshness | [API](https://x402-bounty-radar.nikolas-sapalidis.workers.dev) |
-
-</details>
-
-<details>
-<summary><code>ls ~/experiments</code> · web products, consumer apps, and on-chain work</summary>
-
-### SaaS & web products
-
-| Project | What it does | Live |
-|---|---|---|
-| [**neurolens**](https://github.com/nikolas-sapa/neurolens) (NeuroPulse) | Score any ad — image, video, or copy — across 8 brain regions before you spend a dollar promoting it. Open-source, self-hostable | [neurolens-nine.vercel.app](https://neurolens-nine.vercel.app) |
-| **marketmyapp** | Marketing health score for indie founders — find out what's broken before your launch does | [marketmyapp.vercel.app](https://marketmyapp.vercel.app) |
-| **creator-roast** | AI profile audit — scores, grades, and a ranked fix list to get brand-deal ready | [creator-roast.vercel.app](https://creator-roast.vercel.app) |
-| **helpmarq** | Honest, structured project feedback from real users in 48 hours. Free tier | [helpmarq.com](https://helpmarq.com) |
-
-### Consumer apps
-
-| Project | What it does | Live |
-|---|---|---|
-| **noctiq** | AI sleep coach — reads HealthKit + Oura / WHOOP / Garmin and tells you exactly what to change | [noctiq-site.vercel.app](https://noctiq-site.vercel.app) |
-| **padelup** | AI padel coaching — video analysis, training plans, court finder | [trypadelup.com](https://trypadelup.com) |
-| **ugc-engine** | AI-UGC system — generate, score, and improve short-form video + carousels that learn from every post | [ugc-engine-site.vercel.app](https://ugc-engine-site.vercel.app) |
-
-### On-chain
-
-| Project | What it does | |
-|---|---|---|
-| [**sac-capital**](https://github.com/nikolas-sapa/sac-capital) | Verifiable AI trading agent — multi-stage LLM equity research with on-chain bytes32 commitments on Mantle, paper execution, full audit trail | [sapa-fund.vercel.app](https://sapa-fund.vercel.app) |
-| [**curb**](https://github.com/nikolas-sapa/curb) | Your bank card has a daily limit, your wallet doesn't — a Monad vault that caps daily outflow: lowering is instant, raising is timelocked | [curb-pink.vercel.app](https://curb-pink.vercel.app) |
-
-</details>
-
-<details>
-<summary><code>git log --reverse</code> · before the open-source PRs</summary>
-
-| When | What I was building |
-|---|---|
-| 2024–2025 | SCAT Advanced Quantitative; CTY Greece courses in Probability & Game Theory and Economics & Entrepreneurship. |
-| April 2025 | Foodsave, a near-expiry food marketplace concept. Solo entry, top 5 of 100+ teams in the Crazy Business Ideas entrepreneurship contest. |
-| January 2026 | Started teaching myself to code. |
-| February 2026 | First paying website client. Four paying clients and about €2,000 earned by September. |
-| July 2026 | Launched PadelUp, my own AI padel-coaching iOS app, on the App Store. |
-| September 2026 | First merged upstream PR: making WebdriverIO report crashed workers as failures. |
-
-</details>
-
-<details>
-<summary><code>cat .debug/notes</code></summary>
-
-```diff
-- The test is green. Ship it.
-+ Break the target. Does the test turn red?
-```
-
-WebdriverIO's crashed workers used to pass.
-My browser benchmarks include a comparison I lost.
-You can probably guess why this is here.
-
-```text
-418 I'm a teapot
-200 You found the bottom of the README
-```
-
-</details>
-
-## Say hello
-
-[Website](https://nikolassapalidis.tech) · [X @NikolasSapa](https://x.com/NikolasSapa)
-
-<!-- Reading the raw Markdown? The ASCII banner is a protected species. -->
+<!-- Image-only profile. Selectable full text, project ranking and dated sources: EVIDENCE.md. Original banner.svg retained unchanged. -->
+<div>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-hero-static.svg"><img src="assets/profile-hero.svg" alt="Nikolas Sapalidis. The original two-line ASCII name over slow graphite and blue topographic dither contours." width="100%" align="top"></picture>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-intro-static.svg"><img src="assets/profile-intro.svg" alt="17. Greece. Self-taught since January 2026. I build tools for AI agents and fix bugs in the tools I use. Below the text, a dithered folded wave travels slowly sideways." width="100%" align="top"></picture>
+<a href="https://github.com/nikolas-sapa/ns-ui"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-ns-ui-static.svg"><img src="assets/profile-ns-ui.svg" alt="ns-ui. 542 components, installed as editable source. Catalog size does not establish uniform component quality. Open the ns-ui repository." width="100%" align="top"></picture></a>
+<a href="https://github.com/nikolas-sapa/grip-browser"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-grip-static.svg"><img src="assets/profile-grip.svg" alt="Grip. Direct-CDP browser SDK and semantic snapshots. Snapshot-size benchmarks do not establish task-success or cost superiority. Open the Grip repository." width="100%" align="top"></picture></a>
+<a href="https://github.com/nikolas-sapa/sac-capital"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-sac-capital-static.svg"><img src="assets/profile-sac-capital.svg" alt="SAC Capital. Paper execution, risk checks and reconciliation. No proven trading edge or continuously reliable autonomous operation; Sapa Fund belongs to this project family. Open the SAC Capital repository." width="100%" align="top"></picture></a>
+<a href="https://github.com/nikolas-sapa/agentic-pipeline"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-agentic-pipeline-static.svg"><img src="assets/profile-agentic-pipeline.svg" alt="Agentic Pipeline. Durable jobs and a rejected cost-router premise. The benchmark used CLI-token accounting, not metered API billing. No cost router is shipped. Open the Agentic Pipeline repository." width="100%" align="top"></picture></a>
+<a href="https://github.com/nikolas-sapa/resumed-agent-staleness"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-research-static.svg"><img src="assets/profile-research.svg" alt="Resumed-agent staleness. 2,631 runs studying when stale summaries overrule fresh evidence. Templated provenance helped. Model-written compaction remained unresolved. Open the research." width="100%" align="top"></picture></a>
+<picture><img src="assets/profile-index-tools.svg" alt="Systems and developer tools. Entries show the overall project priority, not a quality score." width="100%" align="top"></picture>
+<a href="https://github.com/nikolas-sapa/toolfence"><img src="assets/profile-index-toolfence.svg" alt="06. Toolfence. MCP metadata and tool-drift scanning. Metadata heuristics cannot establish runtime tool safety. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/sigeval"><img src="assets/profile-index-sigeval.svg" alt="07. Sigeval. Statistical eval gates, with uncertainty. Statistical assumptions and optional stopping limit confidence guarantees; pre-PyPI. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/branch-ai"><img src="assets/profile-index-branch-ai.svg" alt="08. Branch AI. Surfaced reasoning, captured as trees. Captures surfaced reasoning, not hidden cognition or exact model-state rewind; hosted viewer is read-only. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/helm"><img src="assets/profile-index-helm.svg" alt="14. Helm. Agent control plane; isolation has gaps. Isolation backend is not bundled, budgets are not hard ceilings and some runtime writes remain unverified. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/skillswitch"><img src="assets/profile-index-skillswitch.svg" alt="18. Skillswitch. Reversible coding-agent skill management. Profiles, catalog and audit are Claude-only; profile switching is not transactional. Open the repository." width="100%" align="top"></a>
+<picture><img src="assets/profile-index-applications.svg" alt="Applications and prototypes. Entries show the overall project priority, not a quality score." width="100%" align="top"></picture>
+<a href="https://github.com/nikolas-sapa/commitment-desk"><img src="assets/profile-index-commitment-desk.svg" alt="09. Commitment Desk. Source-linked commitments and approvals. Prototype with incomplete safety acceptance; replay alone does not demonstrate model reasoning. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/basis-terminal"><img src="assets/profile-index-basis-terminal.svg" alt="10. Basis Terminal. Tokenized-stock gaps, freshness and liquidity. Reference-price gaps do not establish executable arbitrage. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/open-agent-order-evidence-2026"><img src="assets/profile-index-open-agent-order-evidence-2026.svg" alt="11. Order Evidence. Versioned evidence and invalidated approvals. The live campaign is incomplete; the executor is an attributed external reference implementation. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/taste-concierge"><img src="assets/profile-index-taste-concierge.svg" alt="12. Taste Concierge. Culture recommendations using Qloo. Recommendation improvement is unestablished; important guest constraints remain unsupported. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/scope-to-deposit-paypal-ai-2026"><img src="assets/profile-index-scope-to-deposit-paypal-ai-2026.svg" alt="13. Scope to Deposit. Quote approval and Sandbox payments. Local PayPal Sandbox prototype; AI-quality target failed and current model access is blocked. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/neurolens"><img src="assets/profile-index-neurolens.svg" alt="15. NeuroLens. Multimodal ad-analysis heuristics. Scores are not validated neuroscience or advertising-performance predictions; NeuroPulse is the same project. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/release-memory-graph-hacks-2026"><img src="assets/profile-index-release-memory-graph-hacks-2026.svg" alt="16. Release Memory. Graph-backed release evidence and review. Synthetic fixtures and a deterministic local demo do not establish model reasoning. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/clientcast"><img src="assets/profile-index-clientcast.svg" alt="17. Clientcast. Git-based client updates and scope review. Public-by-link payloads have privacy implications; business outcomes are unproven. Open the repository." width="100%" align="top"></a>
+<picture><img src="assets/profile-index-experiments.svg" alt="Experiments and integrations. Entries show the overall project priority, not a quality score." width="100%" align="top"></picture>
+<a href="https://github.com/nikolas-sapa/nemocascade"><img src="assets/profile-index-nemocascade.svg" alt="19. NemoCascade. Verification-based model escalation. Documented provider examples use mocks, not an exercised live Nebius endpoint. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/curb"><img src="assets/profile-index-curb.svg" alt="20. Curb. Experimental withdrawal-limit vault. Unaudited contract, acknowledged prior art; deployment pending in the reviewed snapshot. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/x402-bounty-radar"><img src="assets/profile-index-x402-bounty-radar.svg" alt="21. x402 Bounty Radar. Bounty discovery with a paid API. Heuristics do not prove bounties are funded; documented paid-path evidence is limited. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/fieldquest"><img src="assets/profile-index-fieldquest.svg" alt="22. FieldQuest. Browser-local AI for small outdoor quests. Narrow prototype with limited documented real-device and quality evidence. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/branch-obsidian"><img src="assets/profile-index-branch-obsidian.svg" alt="23. Branch Obsidian. Branch trees embedded inside Obsidian. Dependent extension, not a separate flagship; no community-store release or real-host test evidence. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/pre-commit-deno"><img src="assets/profile-index-pre-commit-deno.svg" alt="24. pre-commit-deno. Focused Deno hook integration. Contribution-sized implementation; acceptance and end-to-end compatibility remain undocumented. Open the repository." width="100%" align="top"></a>
+<a href="https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&amp;type=pullrequests"><img src="assets/profile-upstream.svg" alt="35 merged pull requests across 14 external repositories, excluding two directory listings. November 3, 2026. Open the full merged external PR history." width="100%" align="top"></a>
+<picture><img src="assets/profile-upstream-group-testing-ml.svg" alt="TESTING / MACHINE LEARNING. 20 merged PRs across 4 external repositories." width="100%" align="top"></picture>
+<a href="https://github.com/adaptive-machine-learning/CapyMOA/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-capymoa.svg" alt="CapyMOA: 10 merged external PRs. Highlight #450: fix(evaluation): load_model raises RecursionError on models holding an evaluator. Open all merged contributions to adaptive-machine-learning/CapyMOA." width="100%" align="top"></a>
+<a href="https://github.com/webdriverio/webdriverio/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-webdriverio.svg" alt="WebdriverIO: 7 merged external PRs. Highlight #15595: fix(@wdio/local-runner): report a non-zero exit code for signal terminated workers. Open all merged contributions to webdriverio/webdriverio." width="100%" align="top"></a>
+<a href="https://github.com/sktime/sktime/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-sktime.svg" alt="sktime: 1 merged external PR. Highlight #11307: [BUG] `BaggingClassifier`: stop reseeding the process-global numpy RNG. Open all merged contributions to sktime/sktime." width="100%" align="top"></a>
+<a href="https://github.com/online-ml/river/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-river.svg" alt="river: 2 merged external PRs. Highlight #2025: Remove stale __all__ entries and add a resolution guard test. Open all merged contributions to online-ml/river." width="100%" align="top"></a>
+<picture><img src="assets/profile-upstream-group-web-tooling.svg" alt="WEB / TOOLING. 4 merged PRs across 4 external repositories." width="100%" align="top"></picture>
+<a href="https://github.com/withastro/astro/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-astro.svg" alt="Astro: 1 merged external PR. Highlight #18085: fix(@astrojs/vercel): make redirects match when trailingSlash is always/never. Open all merged contributions to withastro/astro." width="100%" align="top"></a>
+<a href="https://github.com/traefik/traefik/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-traefik.svg" alt="Traefik: 1 merged external PR. Highlight #13919: Add global default for aliasHeadersStrategy. Open all merged contributions to traefik/traefik." width="100%" align="top"></a>
+<a href="https://github.com/eslint-stylistic/eslint-stylistic/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-eslint-stylistic.svg" alt="ESLint Stylistic: 1 merged external PR. Highlight #1283: fix(key-spacing): align parenthesized type values from the opening paren. Open all merged contributions to eslint-stylistic/eslint-stylistic." width="100%" align="top"></a>
+<a href="https://github.com/unocss/unocss/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-unocss.svg" alt="UnoCSS: 1 merged external PR. Highlight #5352: fix(core): expand scope placeholders in constructCSS output. Open all merged contributions to unocss/unocss." width="100%" align="top"></a>
+<picture><img src="assets/profile-upstream-group-apps-agents.svg" alt="APPLICATIONS / AGENTS. 11 merged PRs across 6 external repositories." width="100%" align="top"></picture>
+<a href="https://github.com/neatlogs/neatroots/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-neatroots.svg" alt="neatroots: 3 merged external PRs. Highlight #404: feat(checks): flag truncated model replies with finish_reason match rule (#386). Open all merged contributions to neatlogs/neatroots." width="100%" align="top"></a>
+<a href="https://github.com/CapSoftware/Cap/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-cap.svg" alt="Cap: 2 merged external PRs. Highlight #2673: perf(gpui): optimize screenshot alpha checks, flattening, and premultiplication. Open all merged contributions to CapSoftware/Cap." width="100%" align="top"></a>
+<a href="https://github.com/BasedHardware/omi/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-omi.svg" alt="Omi: 2 merged external PRs. Highlight #22093: fix(test): use module fixture for prod cloud run jobs manifest to avoid timing guard timeout. Open all merged contributions to BasedHardware/omi." width="100%" align="top"></a>
+<a href="https://github.com/data-privacy-stack/presidio/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-presidio.svg" alt="Presidio: 2 merged external PRs. Highlight #2311: Document RECOGNIZER_REGISTRY_CONF_FILE override for the analyzer server. Open all merged contributions to data-privacy-stack/presidio." width="100%" align="top"></a>
+<a href="https://github.com/mastra-ai/mastra/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-mastra.svg" alt="Mastra: 1 merged external PR. Highlight #23791: fix(memory): respect user-pinned thread titles in Observational Memory. Open all merged contributions to mastra-ai/mastra." width="100%" align="top"></a>
+<a href="https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa"><img src="assets/profile-upstream-orca.svg" alt="Orca: 1 merged external PR. Highlight #33223: fix(shortcuts): cycle floating workspace tabs on Ctrl+Tab when the floating panel is focused. Open all merged contributions to stablyai/orca." width="100%" align="top"></a>
+<a href="https://github.com/get-convex/convex-auth/security/advisories/GHSA-c3rg-jwq9-3233"><img src="assets/profile-advisory.svg" alt="Credited reporter. Convex Auth. High severity. Patched in 0.0.95. Open advisory GHSA-c3rg-jwq9-3233." width="100%" align="top"></a>
+<img src="assets/profile-trajectory.svg" alt="April 2025: Foodsave, solo top 5 of 100+ teams. January 2026: learned to code. February 2026: first paying website client. September 2026: four paying clients and about 2,000 euros earned. SCAT Advanced Quantitative, 2024. CTY Probability and Game Theory, June 2024; Economics and Entrepreneurship, January 2025." width="100%" align="top">
+<a href="https://github.com/nikolas-sapa/nikolas-sapa/blob/main/EVIDENCE.md#counting-notes"><img src="assets/profile-stats.svg" alt="November 3, 2026: 3,926 contributions, 433 PR contributions, 85 repositories with PR contributions, including own repositories. 2,803 npm downloads across three tools, November 3, 2025 through November 3, 2026. Includes CI; downloads are not users. Open sources and counting notes." width="100%" align="top"></a>
+<a href="https://nikolassapalidis.tech"><img src="assets/profile-contact-site.svg" alt="Visit nikolassapalidis.tech." width="100%" align="top"></a>
+<a href="https://x.com/NikolasSapa"><img src="assets/profile-contact-x.svg" alt="Visit NikolasSapa on X." width="100%" align="top"></a>
+<a href="https://github.com/nikolas-sapa/nikolas-sapa/blob/main/EVIDENCE.md"><img src="assets/profile-sources.svg" alt="Read accessible full text, source links, dated counts and limitations in EVIDENCE.md." width="100%" align="top"></a>
+</div>

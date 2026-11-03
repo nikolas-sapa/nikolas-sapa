@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="580" viewBox="0 0 840 580" role="img" aria-labelledby="title desc">
+<title id="title">Grip</title>
+<desc id="desc">A CDP-native browser SDK for AI agents. Compact page snapshots. Typed error recovery. Published on PyPI. Open the Grip repository. Static, reduced-motion version.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern><pattern id="silver-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#ededed"/></pattern><clipPath id="illustration"><rect x="40" y="158" width="760" height="172"/></clipPath><path id="snapshot-route" d="M296 251H383C425 251 425 260 467 260H568"/></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}
+.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}
+.art-label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#8f8f8f}
+.muted{fill:#8f8f8f}
+.primary{fill:#ededed}
+.heading{fill:#ededed;font-weight:600;letter-spacing:-1.5px}
+</style>
+<rect width="840" height="580" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="50" font-size="30" class="label">02 / BROWSER TOOLS</text>
+<text x="48" y="125" font-size="64" class="heading">Grip</text>
+<text x="48" y="376" font-size="34" class="primary">A CDP-native browser SDK</text>
+<text x="48" y="420" font-size="34" class="primary">for AI agents.</text>
+<text x="48" y="468" font-size="32" class="muted">Compact page snapshots.</text>
+<text x="48" y="508" font-size="32" class="muted">Typed error recovery.</text>
+<text x="48" y="554" font-size="30" class="label">PUBLISHED ON PYPI</text>
+<g clip-path="url(#illustration)">
+  <path d="M48 164H358V326H48ZM48 200H358M520 164H792V326H520ZM520 200H792" fill="#0a0a0a" stroke="#8f8f8f"/>
+  <use href="#snapshot-route" fill="none" stroke="#006bff" stroke-width="1.5"/>
+  <text x="64" y="189" font-size="24" class="art-label">PAGE</text>
+  <text x="536" y="189" font-size="24" class="art-label">SNAPSHOT</text>
+  <path d="M304 181h5M319 181h5M334 181h5" stroke="#8f8f8f" stroke-width="2"/>
+  <path d="M68 217h134M68 228h92" stroke="#8f8f8f" stroke-width="2"/>
+  <rect x="68" y="240" width="158" height="24" fill="#171717" stroke="#2e2e2e"/>
+  <path d="M78 252h106" stroke="#8f8f8f"/>
+  <rect x="256" y="237" width="80" height="28" fill="#171717" stroke="#006bff"/>
+  <rect x="260" y="241" width="72" height="20" fill="url(#blue-grain)"/>
+  <path d="M68 282h12v12H68ZM94 288h141M68 310h180" stroke="#8f8f8f" fill="none"/>
+  <path d="M540 217v85M540 223h14M540 260h14M540 297h14" stroke="#2e2e2e" stroke-width="1.5" fill="none"/>
+  <path d="M554 209h28v28h-28ZM554 246h28v28h-28ZM554 283h28v28h-28Z" fill="#171717" stroke="#8f8f8f"/>
+  <path d="M594 219h151M606 230h103M594 256h124M606 267h142M594 293h147M606 304h91" stroke="#8f8f8f" stroke-width="2"/>
+  <g font-size="22" text-anchor="middle" fill="#ededed">
+    <text x="326" y="226">1</text><text x="296" y="258">2</text><text x="326" y="301">3</text>
+    <text x="568" y="230">1</text><text x="568" y="267">2</text><text x="568" y="304">3</text>
+  </g>
+  <g class="static-marker" transform="translate(568 260)"><rect x="-14" y="-14" width="28" height="28" fill="none" stroke="#006bff" stroke-width="2"/><path d="M-10-10h4v4h-4ZM6 6h4v4H6Z" fill="#006bff"/></g>
+</g>
+<path d="M751 125l28-28M755 97h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>

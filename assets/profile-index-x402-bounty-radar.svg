@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="120" viewBox="0 0 840 120" role="img" aria-labelledby="title desc">
+<title id="title">x402 Bounty Radar</title>
+<desc id="desc">Rank 21. Bounty discovery with a paid API. Heuristics do not prove bounties are funded; documented paid-path evidence is limited. Open the x402 Bounty Radar repository.</desc>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}.heading{fill:#ededed;font-weight:600;letter-spacing:-.5px}.muted{fill:#8f8f8f}</style>
+<rect width="840" height="120" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="48" font-size="38" class="heading">21 / x402 Bounty Radar</text>
+<text x="48" y="96" font-size="32" class="muted">Bounty discovery with a paid API.</text>
+<path d="M751 48l28-28M755 20h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>

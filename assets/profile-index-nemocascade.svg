@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="120" viewBox="0 0 840 120" role="img" aria-labelledby="title desc">
+<title id="title">NemoCascade</title>
+<desc id="desc">Rank 19. Verification-based model escalation. Documented provider examples use mocks, not an exercised live Nebius endpoint. Open the NemoCascade repository.</desc>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}.heading{fill:#ededed;font-weight:600;letter-spacing:-.5px}.muted{fill:#8f8f8f}</style>
+<rect width="840" height="120" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="48" font-size="38" class="heading">19 / NemoCascade</text>
+<text x="48" y="96" font-size="32" class="muted">Verification-based model escalation.</text>
+<path d="M751 48l28-28M755 20h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>

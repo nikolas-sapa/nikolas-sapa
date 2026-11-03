@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="554" viewBox="0 0 840 554" role="img" aria-labelledby="title desc">
+<title id="title">ns-ui</title>
+<desc id="desc">542 React components. Install the source. Make it yours. CLI and MCP. Open the ns-ui repository.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern><pattern id="silver-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#ededed"/></pattern><clipPath id="illustration"><rect x="40" y="158" width="760" height="172"/></clipPath><path id="install-route" d="M296 234H382C420 234 420 284 458 284H554"/></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}
+.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}
+.art-label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#8f8f8f}
+.muted{fill:#8f8f8f}
+.primary{fill:#ededed}
+.heading{fill:#ededed;font-weight:600;letter-spacing:-1.5px}
+.motion{display:none}
+.static-marker{display:inline}
+@media(prefers-reduced-motion:no-preference){.motion{display:inline}.static-marker{display:none}}
+@media(prefers-reduced-motion:reduce){.motion{display:none}.static-marker{display:inline}}
+</style>
+<rect width="840" height="554" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="50" font-size="30" class="label">01 / SELECTED BUILDS</text>
+<text x="48" y="125" font-size="64" class="heading">ns-ui</text>
+<text x="48" y="398" font-size="34" class="primary">542 React components.</text>
+<text x="48" y="442" font-size="34" class="primary">Install the source. Make it yours.</text>
+<text x="48" y="510" font-size="30" class="muted">CLI + MCP</text>
+<g clip-path="url(#illustration)">
+  <path d="M48 164H358V326H48ZM48 200H358M520 164H792V326H520ZM520 200H792" fill="#0a0a0a" stroke="#8f8f8f"/>
+  <use href="#install-route" fill="none" stroke="#006bff" stroke-width="1.5"/>
+  <text x="64" y="189" font-size="24" class="art-label">REGISTRY</text>
+  <text x="536" y="189" font-size="24" class="art-label">SOURCE</text>
+  <g fill="#171717" stroke="#2e2e2e">
+    <rect x="64" y="216" width="82" height="32"/>
+    <rect x="160" y="216" width="78" height="32"/>
+    <rect x="64" y="264" width="82" height="48"/>
+    <rect x="160" y="264" width="78" height="48"/>
+    <rect x="252" y="264" width="88" height="48"/>
+  </g>
+  <path d="M73 232h54M73 278h63M73 288h42M73 298h55M169 277h60v13h-60ZM169 300h8v8h-8ZM260 277h10v10h-10ZM278 281h52M260 295h10v10h-10ZM278 300h39" stroke="#8f8f8f" fill="none"/>
+  <path d="M174 226h50v14h-50Z" fill="url(#grain)" stroke="#8f8f8f"/>
+  <path d="M178 229h12v8h-12Z" fill="#ededed"/>
+  <rect x="252" y="218" width="88" height="32" fill="#171717" stroke="#006bff" stroke-width="1.5"/>
+  <rect x="256" y="222" width="80" height="24" fill="url(#blue-grain)"/>
+  <path d="M276 234h40" stroke="#ededed" stroke-width="2"/>
+  <path d="M544 218l-8 7 8 7M554 218l8 7-8 7M580 218h150M580 231h107M552 248h178" stroke="#8f8f8f" fill="none"/>
+  <rect x="536" y="266" width="240" height="48" fill="url(#blue-grain)" opacity=".45"/>
+  <path d="M540 270h28v28h-28Z" fill="#171717" stroke="#006bff"/>
+  <path d="M588 280h150M600 295h114" stroke="#8f8f8f" stroke-width="2"/>
+  <g class="static-marker" transform="translate(554 284)"><rect x="-12" y="-8" width="24" height="16" fill="#171717" stroke="#006bff" stroke-width="2"/><path d="M-7 0H7" stroke="#ededed" stroke-width="2"/></g><g class="motion"><animateMotion dur="10s" begin="0s" repeatCount="indefinite" calcMode="spline" keyPoints="0;0;1;1;0;0" keyTimes="0;.12;.42;.60;.90;1" keySplines="0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1"><mpath href="#install-route"/></animateMotion><rect x="-12" y="-8" width="24" height="16" fill="#171717" stroke="#006bff" stroke-width="2"/><path d="M-7 0H7" stroke="#ededed" stroke-width="2"/></g>
+</g>
+<path d="M751 125l28-28M755 97h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>

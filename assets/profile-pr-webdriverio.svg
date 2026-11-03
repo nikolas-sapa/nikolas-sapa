@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="178" viewBox="0 0 840 178" role="img" aria-labelledby="title desc">
+<title id="title">WebdriverIO pull request 15595</title>
+<desc id="desc">Crashed test workers must fail the run. Open WebdriverIO PR #15595.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern><pattern id="silver-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#ededed"/></pattern></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}.muted{fill:#8f8f8f}.primary{fill:#ededed}.heading{fill:#ededed;font-weight:600;letter-spacing:-1.5px}.motion{animation:none!important;transform:none!important}</style>
+<rect width="840" height="178" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="48" font-size="30" class="label">WebdriverIO / #15595</text>
+<text x="48" y="104" font-size="34" class="primary">Crashed test workers must</text>
+<text x="48" y="148" font-size="34" class="primary">fail the run.</text>
+
+<path d="M751 62l28-28M755 34h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>
