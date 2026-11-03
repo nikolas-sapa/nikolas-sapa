@@ -5,19 +5,25 @@
 I build tools for AI agents and fix bugs in the tools I use.
 Sometimes the bug is in the benchmark. That gets published too.
 
+<img src="assets/field-notes.svg" alt="Field notes: a folded graphite wave, rendered in ordered dither with a blue seam." width="100%">
+
 [Builds](#things-ive-shipped) · [Merged fixes](#fixes-that-landed-upstream) · [Research](#experiments-with-the-receipts) · [Numbers](#by-the-numbers) · [Contact](#say-hello)
 
 `TypeScript` · `Python` · `Swift` · `React / Next.js`
 
 ## Things I've shipped
 
-### ns-ui / components you keep
+<img src="assets/builds.svg" alt="Selected builds: ns-ui, components you keep; Grip, less DOM, more context; branch-ai, a debugger for the reasoning tree." width="100%">
 
-[![registry](https://img.shields.io/badge/registry-design.helpmarq.com-006bff?style=flat-square&labelColor=0B0B0D)](https://design.helpmarq.com)
-[![components](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnikolas-sapa%2Fns-ui%2Fmain%2Fregistry.json&query=%24.items.length&label=components&style=flat-square&labelColor=0B0B0D&color=0B0B0D)](https://github.com/nikolas-sapa/ns-ui)
+### ns-ui
 
 A shadcn-compatible registry of 542 React components, installed as source you own.
 Includes a CLI and MCP server so coding agents can find and install components.
+
+[Browse components](https://design.helpmarq.com) · [Source](https://github.com/nikolas-sapa/ns-ui)
+
+<details>
+<summary>Install a component · stack</summary>
 
 ```bash
 npx shadcn add https://design.helpmarq.com/r/gallery-coverflow-caustic.json
@@ -25,45 +31,44 @@ npx shadcn add https://design.helpmarq.com/r/gallery-coverflow-caustic.json
 
 Tailwind v4 · Motion · react-three-fiber · agent-readable via `/llms.txt`.
 
-[Browse components](https://design.helpmarq.com) · [Source](https://github.com/nikolas-sapa/ns-ui)
+</details>
 
-### Grip / less DOM, more context
-
-[![PyPI](https://img.shields.io/pypi/v/grip-browser?style=flat-square&labelColor=0B0B0D&color=006bff)](https://pypi.org/project/grip-browser/)
+### Grip
 
 A Python browser SDK built directly on Chrome DevTools Protocol. It gives agents
 compact semantic snapshots, stable element references, shadow-DOM traversal,
 and typed error recovery. No Playwright or Puppeteer dependency.
 
-In the published eight-page benchmark (August 10, 2026), snapshots used a median
-1,998 tokens. The median per-page reduction was 16× versus raw HTML and 5× versus
-Playwright MCP. These measure snapshot size, not task success or end-to-end cost.
+[PyPI](https://pypi.org/project/grip-browser/) · [Site](https://grip-browser.vercel.app) · [Source](https://github.com/nikolas-sapa/grip-browser)
+
+<details>
+<summary>Install · eight-page benchmark · the comparison I lost</summary>
 
 ```bash
 pip install grip-browser
 ```
 
+In the published eight-page benchmark (August 10, 2026), snapshots used a median
+1,998 tokens. The median per-page reduction was 16× versus raw HTML and 5× versus
+Playwright MCP. These measure snapshot size, not task success or end-to-end cost.
+
 [Benchmark data](https://github.com/nikolas-sapa/grip-browser/blob/main/benchmarks/RESULTS_COMPETITORS.md) ·
 [The comparison where browser-use is smaller](https://github.com/nikolas-sapa/grip-browser/blob/main/benchmarks/RESULTS_BROWSERUSE.md)
 (different page coverage, explained in the report).
 
-[PyPI](https://pypi.org/project/grip-browser/) · [Site](https://grip-browser.vercel.app) · [Source](https://github.com/nikolas-sapa/grip-browser)
+</details>
 
-### branch-ai / a debugger for the reasoning tree
+### branch-ai
 
 Capture extended thinking from AI coding CLIs as a navigable, forkable tree.
 Rewind to a node, fork it, and explore another direction. Local-first, with an MCP server.
 
-```bash
-npm i -g branch-ai
-```
-
-[Demo](https://branchai-fawn.vercel.app) · [Source](https://github.com/nikolas-sapa/branch-ai)
+[Demo](https://branchai-fawn.vercel.app) · [Source](https://github.com/nikolas-sapa/branch-ai) · `npm i -g branch-ai`
 
 ## Fixes that landed upstream
 
 35 merged PRs across 14 other projects, covering fixes, features, tests, and docs.
-Two directory listings bring the [full merged history to 37](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests).
+Including two directory-listing PRs: [37 merges across 16 repositories](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests).
 
 | Project | What changed |
 |---|---|
@@ -91,17 +96,34 @@ The report documents the failed approaches and scorer corrections too.
 
 ## By the numbers
 
-Snapshot: November 1, 2026. GitHub contribution figures cover 2026, including my own repositories.
+<img src="assets/activity.svg" alt="2026 GitHub snapshot, November 3: 3,923 contributions, 432 PR contributions, 85 repositories with PR contributions. Includes my own repositories." width="100%">
 
-| Contributions | PRs opened | Repositories with PR contributions |
-|---:|---:|---:|
-| 3,910 | 427 | 84 |
+Snapshot: **November 3, 2026**. Since January 1: **3,923 contributions**, **432 PR contributions**,
+**85 repositories with PR contributions**, including my own repositories.
+[GitHub contribution history](https://github.com/nikolas-sapa?tab=overview&from=2026-01-01&to=2026-11-03).
 
-Three npm tools, 2,778 downloads from November 1, 2025 through November 1, 2026:
-[branch-ai: 1,077](https://api.npmjs.org/downloads/point/2025-11-01:2026-11-01/branch-ai) ·
-[skillswitch: 1,156](https://api.npmjs.org/downloads/point/2025-11-01:2026-11-01/skillswitch) ·
-[clientcast: 545](https://api.npmjs.org/downloads/point/2025-11-01:2026-11-01/clientcast).
+Three npm tools, **2,803 downloads** from **November 3, 2025 through November 3, 2026**:
+[branch-ai: 1,090](https://api.npmjs.org/downloads/point/2025-11-03:2026-11-03/branch-ai) ·
+[skillswitch: 1,160](https://api.npmjs.org/downloads/point/2025-11-03:2026-11-03/skillswitch) ·
+[clientcast: 553](https://api.npmjs.org/downloads/point/2025-11-03:2026-11-03/clientcast).
 Registry downloads include CI and automated installs; they are not unique users.
+
+<details>
+<summary>Counting method</summary>
+
+GitHub source: GraphQL `user(login: "nikolas-sapa")` →
+[`contributionsCollection(from: "2026-01-01T00:00:00Z")`](https://docs.github.com/en/graphql/reference/objects#contributionscollection),
+queried November 3, 2026. Fields: `contributionCalendar.totalContributions`,
+`totalPullRequestContributions`, `totalRepositoriesWithContributedPullRequests`.
+These are contribution counts, not an upstream-only total.
+
+Upstream merges are counted separately above, excluding my own repositories.
+The 35-PR / 14-repository figure also excludes two directory-listing PRs;
+the full figure is 37 / 16. npm links return the stated rolling-period download counts.
+
+</details>
+
+---
 
 <details>
 <summary><code>ls ~/projects</code> · more developer tools</summary>
@@ -152,6 +174,7 @@ Registry downloads include CI and automated installs; they are not unique users.
 
 | When | What I was building |
 |---|---|
+| 2024–2025 | SCAT Advanced Quantitative; CTY Greece courses in Probability & Game Theory and Economics & Entrepreneurship. |
 | April 2025 | Foodsave, a near-expiry food marketplace concept. Solo entry, top 5 of 100+ teams in the Crazy Business Ideas entrepreneurship contest. |
 | January 2026 | Started teaching myself to code. |
 | February 2026 | First paying website client. Four paying clients and about €2,000 earned by September. |
