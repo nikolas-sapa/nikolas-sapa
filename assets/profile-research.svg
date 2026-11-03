@@ -21,7 +21,7 @@
 @keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(514px)}}
 @keyframes packet{0%,100%{transform:translate(0,0)}32%{transform:translate(234px,-38px)}62%,78%{transform:translate(552px,-38px)}}
 @keyframes toggle{0%,100%{transform:translateX(0)}40%,66%{transform:translateX(84px)}}
-@keyframes paper{0%,100%{transform:translate(-26px,0)}50%{transform:translate(36px,-10px)}}
+@keyframes paper{0%,100%{transform:translate(-26px,0)}50%{transform:translate(8px,-10px)}}
 @media(prefers-reduced-motion:reduce){.motion{animation:none!important;transform:none!important}}
 </style>
 <rect width="840" height="626" fill="#0a0a0a"/>

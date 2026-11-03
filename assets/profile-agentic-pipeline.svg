@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="610" viewBox="0 0 840 610" role="img" aria-labelledby="title desc">
+<title id="title">Agentic Pipeline</title>
+<desc id="desc">Durable jobs. Retries. Replay. Built the queue. Rejected the router. CLI-token benchmark, not API billing. Repository: https://github.com/nikolas-sapa/agentic-pipeline.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern><clipPath id="illustration"><rect x="40" y="158" width="760" height="178"/></clipPath><path id="done-route" d="M210 264H426H538C568 264 568 214 598 214H708"/><path id="dlq-route" d="M426 264H538C568 264 568 308 598 308H708"/></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}
+.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}
+.art-label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#8f8f8f}
+.primary{fill:#ededed}
+.muted{fill:#8f8f8f}
+.heading{fill:#ededed;font-weight:600;letter-spacing:-1.5px}
+.motion{display:none}
+.static-marker{display:inline}
+@media(prefers-reduced-motion:no-preference){.motion{display:inline}.static-marker{display:none}}
+@media(prefers-reduced-motion:reduce){.motion{display:none}.static-marker{display:inline}}
+</style>
+<rect width="840" height="610" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="50" font-size="30" class="label">INFRASTRUCTURE / NEGATIVE RESULT</text>
+<text x="48" y="125" font-size="64" class="heading">Agentic Pipeline</text>
+<text x="48" y="398" font-size="34" class="primary">Durable jobs. Retries. Replay.</text>
+<text x="48" y="442" font-size="34" class="primary">Built the queue. Rejected the router.</text>
+<text x="48" y="516" font-size="30" class="muted">CLI-token benchmark, not API billing.</text>
+<g clip-path="url(#illustration)">
+  <path d="M48 164H268V330H48ZM48 200H268M342 164H510V330H342ZM342 200H510M624 164H792V236H624ZM624 258H792V330H624Z" fill="#0a0a0a" stroke="#8f8f8f"/>
+  <use href="#done-route" fill="none" stroke="#006bff" stroke-width="1.5"/>
+  <use href="#dlq-route" fill="none" stroke="#8f8f8f" stroke-width="1.5"/>
+  <path d="M295 258l6 6-6 6M583 208l6 6-6 6M583 302l6 6-6 6" fill="none" stroke="#8f8f8f" stroke-width="1.5"/>
+  <g font-size="24" class="art-label">
+    <text x="64" y="190">QUEUE</text><text x="358" y="190">WORKER</text><text x="640" y="190">DONE</text><text x="640" y="284">DLQ</text>
+  </g>
+  <rect x="64" y="214" width="188" height="98" fill="url(#grain)" opacity=".4"/>
+  <path d="M68 224H114V304H68ZM126 224H172V304H126Z" fill="#171717" stroke="#8f8f8f"/>
+  <path d="M72 228h38v72H72ZM130 228h38v72h-38Z" fill="url(#grain)"/>
+  <path d="M77 239h27M135 239h27M77 248h18M135 248h18" stroke="#8f8f8f"/>
+  <rect x="184" y="224" width="52" height="80" fill="#171717" stroke="#006bff"/>
+  <rect x="188" y="228" width="44" height="72" fill="url(#blue-grain)"/>
+  <path d="M195 239h30M195 290h30M68 317H250" stroke="#8f8f8f"/>
+  <path d="M382 222H470V306H382Z" fill="#171717" stroke="#8f8f8f"/>
+  <rect x="386" y="226" width="80" height="76" fill="url(#grain)"/>
+  <path d="M370 236h12M370 250h12M370 278h12M370 292h12M470 236h12M470 250h12M470 278h12M470 292h12M396 210v12M412 210v12M440 210v12M456 210v12M396 306v12M412 306v12M440 306v12M456 306v12" stroke="#8f8f8f"/>
+  <rect x="411" y="249" width="30" height="30" fill="#0a0a0a" stroke="#006bff"/>
+  <path d="M694 200h28v28h-28ZM694 294h28v28h-28Z" fill="#171717" stroke="#8f8f8f"/>
+  <path d="M698 204h20v20h-20Z" fill="url(#blue-grain)"/>
+  <path d="M744 294h26v28h-26Z" fill="url(#grain)" stroke="#2e2e2e"/>
+  <path d="M744 212l7 7 12-14" fill="none" stroke="#8f8f8f" stroke-width="1.5"/>
+  <g class="static-marker" transform="translate(708 214)"><rect x="-9" y="-9" width="18" height="18" fill="#171717" stroke="#006bff" stroke-width="2"/><path d="M-5-5h10v10H-5Z" fill="url(#blue-grain)"/><path d="M-3 0l2 2 4-4" fill="none" stroke="#ededed" stroke-width="1.5"/></g><g class="motion"><animateMotion dur="12s" begin="0s" repeatCount="indefinite" calcMode="spline" keyPoints="0;0;0.415179681;0.415179681;1;1;0.415179681;0.415179681;0;0" keyTimes="0;.10;.27;.35;.52;.64;.79;.85;.96;1" keySplines="0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1"><mpath href="#done-route"/></animateMotion><rect x="-9" y="-9" width="18" height="18" fill="#171717" stroke="#006bff" stroke-width="2"/><path d="M-5-5h10v10H-5Z" fill="url(#blue-grain)"/><path d="M-3 0l2 2 4-4" fill="none" stroke="#ededed" stroke-width="1.5"/></g><g class="static-marker" transform="translate(708 308)"><rect x="-9" y="-9" width="18" height="18" fill="#171717" stroke="#8f8f8f" stroke-width="2"/><path d="M-5-5h10v10H-5Z" fill="url(#grain)"/><path d="M-3-3h6v6H-3Z" fill="#006bff"/></g><g class="motion"><animateMotion dur="12s" begin="0s" repeatCount="indefinite" calcMode="spline" keyPoints="0;0;1;1;0;0" keyTimes="0;.30;.53;.68;.92;1" keySplines="0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1"><mpath href="#dlq-route"/></animateMotion><rect x="-9" y="-9" width="18" height="18" fill="#171717" stroke="#8f8f8f" stroke-width="2"/><path d="M-5-5h10v10H-5Z" fill="url(#grain)"/><path d="M-3-3h6v6H-3Z" fill="#006bff"/></g>
+</g>
+<path d="M751 125l28-28M755 97h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>

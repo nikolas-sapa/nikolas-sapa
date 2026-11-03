@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="610" viewBox="0 0 840 610" role="img" aria-labelledby="title desc">
+<title id="title">SAC Capital</title>
+<desc id="desc">Paper trades. Risk checks. Broker fills and ledger reconciliation. Research system / no proven trading edge. Repository: https://github.com/nikolas-sapa/sac-capital. Static, reduced-motion version.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern><clipPath id="illustration"><rect x="40" y="158" width="760" height="178"/></clipPath><path id="reconcile-route" d="M142 264H420H698"/></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}
+.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}
+.art-label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#8f8f8f}
+.primary{fill:#ededed}
+.muted{fill:#8f8f8f}
+.heading{fill:#ededed;font-weight:600;letter-spacing:-1.5px}
+</style>
+<rect width="840" height="610" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="50" font-size="30" class="label">SYSTEMS / PAPER TRADING</text>
+<text x="48" y="125" font-size="64" class="heading">SAC Capital</text>
+<text x="48" y="398" font-size="34" class="primary">Paper trades. Risk checks.</text>
+<text x="48" y="442" font-size="34" class="primary">Broker fills and ledger reconciliation.</text>
+<text x="48" y="516" font-size="30" class="muted">Research system / no proven trading edge.</text>
+<g clip-path="url(#illustration)">
+  <path d="M48 164H236V330H48ZM48 200H236M326 164H514V330H326ZM326 200H514M604 164H792V330H604ZM604 200H792" fill="#0a0a0a" stroke="#8f8f8f"/>
+  <use href="#reconcile-route" fill="none" stroke="#006bff" stroke-width="1.5"/>
+  <path d="M271 258l6 6-6 6M549 258l6 6-6 6" fill="none" stroke="#8f8f8f" stroke-width="1.5"/>
+  <g font-size="24" class="art-label">
+    <text x="64" y="190">RISK</text><text x="342" y="190">PAPER</text><text x="620" y="190">LEDGER</text>
+  </g>
+  <rect x="64" y="214" width="156" height="102" fill="url(#grain)" opacity=".55"/>
+  <rect x="80" y="218" width="124" height="92" fill="#171717" stroke="#8f8f8f"/>
+  <rect x="84" y="222" width="116" height="18" fill="url(#blue-grain)"/>
+  <path d="M126 250v40M158 250v40M112 264h14M158 264h14M112 298h60" fill="none" stroke="#8f8f8f" stroke-width="2"/>
+  <rect x="128" y="250" width="28" height="28" fill="#0a0a0a"/>
+  <path d="M368 212H472V310L464 303L456 310L448 303L440 310L432 303L424 310L416 303L408 310L400 303L392 310L384 303L376 310L368 303Z" fill="#171717" stroke="#8f8f8f"/>
+  <rect x="450" y="218" width="16" height="80" fill="url(#grain)"/>
+  <path d="M380 225h54M380 237h36M380 293h54" fill="none" stroke="#8f8f8f" stroke-width="1.5"/>
+  <rect x="405" y="249" width="30" height="30" fill="url(#blue-grain)" stroke="#006bff"/>
+  <path d="M620 214H776V314H620ZM620 242H776M620 286H776" fill="none" stroke="#2e2e2e"/>
+  <path d="M628 220h42v16h-42ZM724 220h42v16h-42ZM628 294h42v12h-42ZM724 294h42v12h-42Z" fill="url(#grain)"/>
+  <path d="M628 248h42v32h-42ZM724 248h42v32h-42Z" fill="url(#blue-grain)"/>
+  <path d="M670 264h54" stroke="#8f8f8f"/>
+  <rect x="684" y="250" width="28" height="28" fill="#171717" stroke="#006bff"/>
+  <g class="static-marker" transform="translate(698 264)"><rect x="-9" y="-9" width="18" height="18" fill="#171717" stroke="#006bff" stroke-width="2"/><path d="M-5-5h10v10H-5Z" fill="url(#blue-grain)"/><path d="M-3 0l2 2 4-4" fill="none" stroke="#ededed" stroke-width="1.5"/></g>
+</g>
+<path d="M751 125l28-28M755 97h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>

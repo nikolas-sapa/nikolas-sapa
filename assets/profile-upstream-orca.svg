@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="120" viewBox="0 0 840 120" role="img" aria-labelledby="title desc">
+<title id="title">Orca / merged contributions</title>
+<desc id="desc">Orca: 1 merged external pull request. Highlight: fix(shortcuts): cycle floating workspace tabs on Ctrl+Tab when the floating panel is focused (#33223). November 3, 2026. Open all merged contributions to stablyai/orca.</desc>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}.heading{fill:#ededed;font-weight:600;letter-spacing:-.5px}.muted{fill:#8f8f8f}.count{font-family:'Geist Mono',ui-monospace,monospace;fill:#3291ff}</style>
+<rect width="840" height="120" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="48" font-size="38" class="heading">Orca</text>
+<text x="792" y="46" font-size="30" text-anchor="end" class="count">1 merged</text>
+<text x="48" y="96" font-size="32" class="muted">Cycle tabs in the focused floating panel.</text>
+</svg>

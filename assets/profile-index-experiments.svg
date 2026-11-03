@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="160" viewBox="0 0 840 160" role="img" aria-labelledby="title desc">
+<title id="title">Experiments and integrations</title>
+<desc id="desc">Experiments and integrations. Entries show this profile's priority rank, not a quality score.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}.label{font-family:'Geist Mono',ui-monospace,monospace;fill:#3291ff}.heading{fill:#ededed;font-weight:600;letter-spacing:-1px}</style>
+<rect width="840" height="160" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="56" font-size="28" class="label">PROJECT INDEX / SMALLER BUILDS</text>
+<text x="48" y="118" font-size="42" class="heading">Experiments and integrations</text>
+<path d="M744 78h16v16h-16zM768 54h16v16h-16zM768 78h16v16h-16zM768 102h16v16h-16zM744 102h16v16h-16z" fill="url(#grain)"/>
+</svg>
