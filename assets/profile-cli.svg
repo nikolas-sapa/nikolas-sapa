@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-labelledby="title desc">
+<title id="title">nikolas sapalidis, as a CLI</title>
+<desc id="desc">Terminal card. whoami returns nikolas sapalidis, 17, Athens, self-taught since January 2026, building tools for AI agents. achievements --latest returns top 4 of 50 plus at Gen AI Summit Hackathon, 35 merged PRs across 14 repositories, a high severity CVE in Convex Auth. contact returns nikolassapalidis dot tech and NikolasSapa on X.</desc>
+<style>text{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace}
+.p{fill:#3291ff}.t{fill:#c8c8c8}.m{fill:#8f8f8f}.h{fill:#ededed}
+</style>
+<rect width="840" height="300" fill="#0a0a0a"/>
+<rect x="40" y="32" width="760" height="236" rx="10" fill="#101010" stroke="#2e2e2e"/>
+<circle cx="66" cy="56" r="6" fill="#3f3f3f"/><circle cx="90" cy="56" r="6" fill="#3f3f3f"/><circle cx="114" cy="56" r="6" fill="#3f3f3f"/>
+<text x="420" y="60" font-size="15" class="m" text-anchor="middle">nikolas@github — zsh</text>
+<text x="64" y="104" font-size="17"><tspan class="p">$</tspan><tspan class="h"> whoami</tspan></text>
+<text x="88" y="134" font-size="17" class="t">nikolas sapalidis — 17, athens — self-taught jan 2026</text>
+<text x="88" y="158" font-size="17" class="m">tools for ai agents + bugs fixed upstream</text>
+<text x="64" y="196" font-size="17"><tspan class="p">$</tspan><tspan class="h"> achievements --latest</tspan></text>
+<text x="88" y="226" font-size="17" class="t">top 4 / 50+ · gen ai summit · 35 merged PRs / 14 repos</text>
+<text x="88" y="250" font-size="17" class="t">high-sev CVE (convex auth) · 2.8k npm dl</text>
+</svg>

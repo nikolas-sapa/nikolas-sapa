@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="470" viewBox="0 0 840 470" role="img" aria-labelledby="title desc">
+<title id="title">Selected work, ranked</title>
+<desc id="desc">Ranked selected work. 01 ns-ui, 542 components installed as source. 02 Grip, CDP browser SDK with 16 times smaller snapshots. 03 Resumed-agent staleness, 2,631-run pre-registered study. 04 SAC Capital, paper trading with a risk kernel. 05 Agentic Pipeline, durable LLM jobs; no cost router shipped. Full ranked list in EVIDENCE.md.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}.rank{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}.name{fill:#ededed;font-weight:600;letter-spacing:-.5px}.muted{fill:#8f8f8f}</style>
+<rect width="840" height="470" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="50" font-size="30" class="label">SELECTED WORK / RANKED</text>
+<g font-size="34">
+  <text x="48" y="118" class="rank">01</text><text x="118" y="118" class="name">ns-ui</text><text x="430" y="118" class="muted">542 components, installed as source</text>
+  <path d="M48 140H792" stroke="#1c1c1c"/>
+  <text x="48" y="188" class="rank">02</text><text x="118" y="188" class="name">Grip</text><text x="430" y="188" class="muted">CDP browser SDK · 16× smaller snapshots</text>
+  <path d="M48 210H792" stroke="#1c1c1c"/>
+  <text x="48" y="258" class="rank">03</text><text x="118" y="258" class="name">Staleness research</text><text x="430" y="258" class="muted">2,631-run resumed-agent study</text>
+  <path d="M48 280H792" stroke="#1c1c1c"/>
+  <text x="48" y="328" class="rank">04</text><text x="118" y="328" class="name">SAC Capital</text><text x="430" y="328" class="muted">paper trading + risk kernel</text>
+  <path d="M48 350H792" stroke="#1c1c1c"/>
+  <text x="48" y="398" class="rank">05</text><text x="118" y="398" class="name">Agentic Pipeline</text><text x="430" y="398" class="muted">durable jobs · no cost router</text>
+</g>
+<text x="48" y="452" font-size="28" class="muted">06–25 + sources → EVIDENCE.md</text>
+<path d="M751 118l28-28M755 90h24v24" fill="none" stroke="#3291ff" stroke-width="2.5"/>
+</svg>
