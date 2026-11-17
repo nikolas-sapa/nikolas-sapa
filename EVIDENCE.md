@@ -63,7 +63,9 @@ The four illustrated engineering projects are ns-ui, Grip, SAC Capital and Agent
 
 Priority for this profile, not a measured quality score or business valuation. The review covered 25 public project READMEs, with Sapa Fund grouped under SAC Capital. The index includes dependent extensions and small integration projects; it is not a count of independent products.
 
-The image profile groups supporting entries into developer tools, applications and smaller experiments. Their numbers preserve the overall ranking below.
+The profile groups supporting entries into developer tools, applications and smaller experiments. Their numbers preserve the overall ranking below.
+
+★ [FIREYE](https://github.com/nikolas-sapa/FIREYE). Added after the hackathon; leads the profile ahead of the numbered ranking. Wildfire information for residents: live fire map, simulated alerts and lower-risk route handoff, replaying the Mati, Greece fire of 23 July 2018. Top 4 finalist of 50+ projects / 120+ selected participants at the Gen AI Summit Hackathon, Athens, November 2026; finals pitch to Google Maps co-creator Lars Rasmussen. Simulation only: not an emergency service or official evacuation advice, and routes and projections are not validated operational guidance. Live demo: https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian
 
 1. [ns-ui](https://github.com/nikolas-sapa/ns-ui). 542 components, installed as editable source. Catalog size does not establish uniform component quality.
 
@@ -227,6 +229,6 @@ Registry downloads include CI and automated installs. They are not unique users.
 
 ## Reading and motion
 
-This page provides the image profile's text as selectable, searchable Markdown. Each project, upstream repository, advisory, research panel and contact strip has its own outer link in the profile.
+This page provides the profile's extended text as selectable, searchable Markdown. Each project, upstream repository, advisory, research panel and contact entry has its own link in the profile.
 
-Every animated profile image has a separate static SVG selected by an outer `picture` source for `prefers-reduced-motion: reduce`. SVGs also contain a CSS reduced-motion fallback. Name geometry comes from the original banner, retained unchanged as `banner.svg`. All artwork is self-contained vector SVG, without scripts or external font requests.
+The README is now a single ASCII-block banner plus text tables; the earlier animated card profile used per-card static SVGs selected by an outer `picture` source for `prefers-reduced-motion: reduce`, and those assets remain in `assets/`. Name geometry comes from the original banner, retained unchanged as `banner.svg`. All artwork is self-contained vector SVG, without scripts or external font requests.
