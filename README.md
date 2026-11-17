@@ -1,5 +1,5 @@
 <!-- Text-forward profile. Full project ranking, extended detail and dated sources: EVIDENCE.md. -->
-<img src="assets/profile-banner-mark.svg" width="100%" alt="Nikolas Sapalidis — name drawn as ASCII-block letterforms. 17, Athens, self-taught January 2026, tools for AI agents.">
+<img src="assets/banner.svg" width="100%" alt="Nikolas Sapalidis — name drawn as ASCII-block letterforms with an animated blue shine.">
 
 **Now:** Top 4 of 50+ projects — [Gen AI Summit Hackathon](https://hackathon.polymath42.com/), Athens. FIREYE finals pitch to Google Maps co-creator Lars Rasmussen → [repo](https://github.com/nikolas-sapa/FIREYE) · [live demo](https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian)
 
