@@ -65,7 +65,7 @@ Priority for this profile, not a measured quality score or business valuation. T
 
 The profile groups supporting entries into developer tools, applications and smaller experiments. Their numbers preserve the overall ranking below.
 
-★ [FIREYE](https://github.com/nikolas-sapa/FIREYE). Added after the hackathon; leads the profile ahead of the numbered ranking. Wildfire information for residents: live fire map, simulated alerts and lower-risk route handoff, replaying the Mati, Greece fire of 23 July 2018. Top 4 finalist of 50+ projects / 120+ selected participants at the Gen AI Summit Hackathon, Athens, November 2026; finals pitch to Google Maps co-creator Lars Rasmussen. Simulation only: not an emergency service or official evacuation advice, and routes and projections are not validated operational guidance. Live demo: https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian
+★ [FIREYE](https://github.com/nikolas-sapa/FIREYE). Added after the hackathon; leads the profile ahead of the numbered ranking. Wildfire information for residents: live fire map, simulated alerts and lower-risk route handoff, replaying the Mati, Greece fire of 23 July 2018. Top 4 finalist of 50+ projects / 120+ selected participants at the [Gen AI Summit Hackathon](https://hackathon.polymath42.com/), Athens, November 2026; finals pitch to Google Maps co-creator Lars Rasmussen. Simulation only: not an emergency service or official evacuation advice, and routes and projections are not validated operational guidance. Live demo: https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian
 
 1. [ns-ui](https://github.com/nikolas-sapa/ns-ui). 542 components, installed as editable source. Catalog size does not establish uniform component quality.
 

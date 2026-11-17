@@ -1,7 +1,7 @@
 <!-- Text-forward profile. Full project ranking, extended detail and dated sources: EVIDENCE.md. -->
-<img src="assets/profile-banner.svg" width="100%" alt="Nikolas Sapalidis — name drawn as ASCII-block letterforms.">
+<img src="assets/profile-banner-tether.svg" width="100%" alt="Nikolas Sapalidis — ASCII-block name tethered to FIREYE, ns-ui and upstream work.">
 
-**Now:** Top 4 of 50+ projects — Gen AI Summit Hackathon, Athens. FIREYE finals pitch to Google Maps co-creator Lars Rasmussen → [repo](https://github.com/nikolas-sapa/FIREYE) · [live demo](https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian)
+**Now:** Top 4 of 50+ projects — [Gen AI Summit Hackathon](https://hackathon.polymath42.com/), Athens. FIREYE finals pitch to Google Maps co-creator Lars Rasmussen → [repo](https://github.com/nikolas-sapa/FIREYE) · [live demo](https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian)
 
 ### Projects
 
