@@ -1,5 +1,5 @@
 <!-- Text-forward profile. Full project ranking, extended detail and dated sources: EVIDENCE.md. -->
-<img src="assets/profile-banner-tether.svg" width="100%" alt="Nikolas Sapalidis — ASCII-block name tethered to FIREYE, ns-ui and upstream work.">
+<img src="assets/profile-banner-mark.svg" width="100%" alt="Nikolas Sapalidis — name drawn as ASCII-block letterforms. 17, Athens, self-taught January 2026, tools for AI agents.">
 
 **Now:** Top 4 of 50+ projects — [Gen AI Summit Hackathon](https://hackathon.polymath42.com/), Athens. FIREYE finals pitch to Google Maps co-creator Lars Rasmussen → [repo](https://github.com/nikolas-sapa/FIREYE) · [live demo](https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian)
 
@@ -15,16 +15,16 @@
 | 5 | [**Agentic Pipeline**](https://github.com/nikolas-sapa/agentic-pipeline) | durable event-driven LLM jobs · queue, retry/DLQ/replay |
 | 6–25 | **+19 more** — Toolfence, Sigeval, Branch AI, Commitment Desk, Basis Terminal… | [full ranking → EVIDENCE.md](EVIDENCE.md) |
 
-### Upstream · 35 merged PRs / 14 repos
+### Upstream · 44 merged PRs / 19 repos
 
 | repo | merged |
 |---|---|
-| CapyMOA | 10 |
+| CapyMOA | 12 |
 | WebdriverIO | 7 |
-| neatroots | 3 |
+| neatroots · skepsis | 3 each |
 | Cap · Omi · Presidio · river | 2 each |
-| sktime · Astro · Traefik · ESLint Stylistic · UnoCSS · Mastra · Orca | 1 each |
-| [all 35 merged →](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests) | |
+| sktime · Astro · Traefik · ESLint Stylistic · UnoCSS · Mastra · Orca · git-extras · openclaw · kombu · ttt | 1 each |
+| [all 44 merged →](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests) | |
 
 Reported a **high-severity auth bug in Convex Auth** — patched in 0.0.95 · [GHSA-c3rg-jwq9-3233](https://github.com/get-convex/convex-auth/security/advisories/GHSA-c3rg-jwq9-3233)
 

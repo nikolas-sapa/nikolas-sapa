@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="520" viewBox="0 0 840 520" role="img" aria-labelledby="title desc">
+<title id="title">A map of the work</title>
+<desc id="desc">Bubble map of all 25 projects; bubble size follows profile rank. Agent tools cluster: Grip, Toolfence, Agentic Pipeline, Branch AI, Helm, Skillswitch, NemoCascade, Branch Obsidian, pre-commit-deno. Apps cluster: ns-ui, FIREYE, Commitment Desk, Basis Terminal, Clientcast, Order Evidence, NeuroLens, Scope to Deposit, Release Memory, FieldQuest, Taste Concierge. Markets cluster: SAC Capital, Curb, x402 Radar. Research: Staleness. FIREYE marked top 4 at Gen AI Summit. Upstream ring: 35 merged PRs across 14 external repos.</desc>
+<defs><pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#8f8f8f"/></pattern><pattern id="blue-grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h2v2H0zM4 4h2v2H4z" fill="#006bff"/></pattern></defs>
+<style>text{font-family:'Geist Sans',system-ui,sans-serif;font-weight:400}
+.label{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#3291ff}
+.region{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Consolas,monospace;fill:#8f8f8f}
+.name{fill:#c8c8c8}
+.big{fill:#ededed;font-weight:600}
+.muted{fill:#8f8f8f}
+circle.p{fill:#141414;stroke:#3f3f3f;stroke-width:1.5}
+circle.f{fill:url(#blue-grain);stroke:#006bff;stroke-width:2}
+</style>
+<rect width="840" height="520" fill="#0a0a0a"/>
+<path d="M48 1H792" stroke="#2e2e2e"/>
+<text x="48" y="46" font-size="30" class="label">MAP / ALL PROJECTS</text>
+<text x="48" y="90" font-size="40" class="big" letter-spacing="-1">A map of the work</text>
+<text x="792" y="46" font-size="15" class="muted" text-anchor="end">bubble size = profile rank</text>
+
+<!-- AGENT TOOLS -->
+<text x="90" y="140" font-size="18" class="region">AGENT TOOLS</text>
+<circle class="f" cx="195" cy="240" r="46"/><text x="195" y="247" font-size="22" class="big" text-anchor="middle">Grip</text>
+<circle class="p" cx="295" cy="185" r="26"/><text x="295" y="218" font-size="13" class="name" text-anchor="middle">toolfence</text>
+<circle class="p" cx="305" cy="295" r="25"/><text x="305" y="329" font-size="13" class="name" text-anchor="middle">agentic-pipeline</text>
+<circle class="p" cx="130" cy="305" r="24"/><text x="130" y="338" font-size="13" class="name" text-anchor="middle">branch-ai</text>
+<circle class="p" cx="105" cy="215" r="22"/><text x="105" y="190" font-size="13" class="name" text-anchor="middle">helm</text>
+<circle class="p" cx="355" cy="245" r="18"/><text x="355" y="271" font-size="13" class="name" text-anchor="middle">skillswitch</text>
+<circle class="p" cx="330" cy="350" r="16"/><text x="330" y="374" font-size="12" class="name" text-anchor="middle">nemocascade</text>
+<circle class="p" cx="215" cy="345" r="15"/><text x="215" y="369" font-size="12" class="name" text-anchor="middle">branch-obsidian</text>
+<circle class="p" cx="90" cy="352" r="13"/><text x="90" y="375" font-size="12" class="muted" text-anchor="middle">pre-commit-deno</text>
+
+<!-- APPS + PRODUCTS -->
+<text x="478" y="140" font-size="18" class="region">APPS + PRODUCTS</text>
+<circle class="f" cx="550" cy="265" r="48"/><text x="550" y="272" font-size="23" class="big" text-anchor="middle">ns-ui</text>
+<circle class="f" cx="685" cy="245" r="45"/><text x="685" y="251" font-size="21" class="big" text-anchor="middle">FIREYE</text>
+<text x="685" y="300" font-size="13" class="label" text-anchor="middle">TOP 4 · GEN AI SUMMIT</text>
+<circle class="p" cx="485" cy="330" r="18"/><text x="485" y="357" font-size="12" class="name" text-anchor="middle">clientcast</text>
+<circle class="p" cx="585" cy="350" r="21"/><text x="585" y="380" font-size="12" class="name" text-anchor="middle">commitment-desk</text>
+<circle class="p" cx="760" cy="330" r="20"/><text x="760" y="359" font-size="12" class="name" text-anchor="middle">basis-terminal</text>
+<circle class="p" cx="520" cy="390" r="18"/><text x="520" y="417" font-size="12" class="name" text-anchor="middle">order-evidence</text>
+<circle class="p" cx="655" cy="395" r="17"/><text x="655" y="421" font-size="12" class="name" text-anchor="middle">neurolens</text>
+<circle class="p" cx="790" cy="375" r="15"/><text x="790" y="399" font-size="12" class="name" text-anchor="middle">scope-deposit</text>
+<circle class="p" cx="455" cy="265" r="15"/><text x="440" y="242" font-size="12" class="name" text-anchor="middle">release-memory</text>
+<circle class="p" cx="715" cy="425" r="14"/><text x="715" y="449" font-size="12" class="name" text-anchor="middle">fieldquest</text>
+<circle class="p" cx="580" cy="415" r="14"/><text x="580" y="439" font-size="12" class="name" text-anchor="middle">taste-concierge</text>
+
+<!-- MARKETS + CHAIN -->
+<text x="530" y="72" font-size="18" class="region">MARKETS + CHAIN</text>
+<circle class="p" cx="600" cy="135" r="27" stroke="#006bff"/><text x="600" y="170" font-size="13" class="name" text-anchor="middle">sac-capital</text>
+<circle class="p" cx="705" cy="105" r="15"/><text x="705" y="129" font-size="12" class="name" text-anchor="middle">curb</text>
+<circle class="p" cx="700" cy="165" r="17"/><text x="700" y="191" font-size="12" class="name" text-anchor="middle">x402-radar</text>
+
+<!-- RESEARCH -->
+<text x="90" y="392" font-size="18" class="region">RESEARCH</text>
+<circle class="p" cx="165" cy="435" r="28"/><text x="165" y="471" font-size="13" class="name" text-anchor="middle">staleness</text>
+
+<!-- UPSTREAM -->
+<circle cx="390" cy="435" r="32" fill="none" stroke="#3291ff" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="390" y="443" font-size="24" class="label" text-anchor="middle">↗</text>
+<text x="436" y="442" font-size="17" class="name">upstream <tspan class="muted">· 35 merged PRs / 14 external repos</tspan></text>
+
+<!-- LEGEND -->
+<text x="48" y="510" font-size="14" class="muted"><tspan fill="#006bff">●</tspan> flagship&#160;&#160;<tspan fill="#8f8f8f">●</tspan> project&#160;&#160;<tspan fill="#3291ff">◌</tspan> external repos</text>
+</svg>

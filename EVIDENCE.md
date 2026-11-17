@@ -124,33 +124,35 @@ Branch AI's published npm version was 1.1.0 and Skillswitch's was 0.2.0 at this 
 
 ## Merged fixes upstream
 
-35 merged pull requests across 14 external repositories, excluding two directory-listing PRs. Including those listings: 37 merged PRs across 16 external repositories. Snapshot: November 3, 2026. Own repositories are excluded from both upstream totals.
+44 merged pull requests across 19 external repositories, excluding two directory-listing PRs. Including those listings: 46 merged PRs across 21 external repositories. Snapshot: November 17, 2026 (previously 35 across 14 on November 3). Own repositories are excluded from both upstream totals.
 
 - [Full merged external PR history](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests)
 
-The profile groups all 14 repositories below. Each repository strip opens its merged contributions by this author, rather than only one highlighted PR. Highlight links here open individual pull requests.
+The profile groups all 19 repositories below. Each repository strip opens its merged contributions by this author, rather than only one highlighted PR. Highlight links here open individual pull requests.
 
 ### Testing and machine learning
 
-20 merged PRs across 4 repositories.
+22 merged PRs across 4 repositories.
 
-- [CapyMOA: 10 merged PRs](https://github.com/adaptive-machine-learning/CapyMOA/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#450](https://github.com/adaptive-machine-learning/CapyMOA/pull/450): fix(evaluation): load_model raises RecursionError on models holding an evaluator.
+- [CapyMOA: 12 merged PRs](https://github.com/adaptive-machine-learning/CapyMOA/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#466](https://github.com/adaptive-machine-learning/CapyMOA/pull/466): fix(anomaly): build detector generators from the seed attribute.
 - [WebdriverIO: 7 merged PRs](https://github.com/webdriverio/webdriverio/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#15595](https://github.com/webdriverio/webdriverio/pull/15595): fix(@wdio/local-runner): report a non-zero exit code for signal terminated workers.
 - [sktime: 1 merged PR](https://github.com/sktime/sktime/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#11307](https://github.com/sktime/sktime/pull/11307): [BUG] `BaggingClassifier`: stop reseeding the process-global numpy RNG.
 - [river: 2 merged PRs](https://github.com/online-ml/river/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#2025](https://github.com/online-ml/river/pull/2025): Remove stale __all__ entries and add a resolution guard test.
 
 ### Web and tooling
 
-4 merged PRs across 4 repositories.
+6 merged PRs across 6 repositories.
 
 - [Astro: 1 merged PR](https://github.com/withastro/astro/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#18085](https://github.com/withastro/astro/pull/18085): fix(@astrojs/vercel): make redirects match when trailingSlash is always/never.
 - [Traefik: 1 merged PR](https://github.com/traefik/traefik/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#13919](https://github.com/traefik/traefik/pull/13919): Add global default for aliasHeadersStrategy.
 - [ESLint Stylistic: 1 merged PR](https://github.com/eslint-stylistic/eslint-stylistic/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#1283](https://github.com/eslint-stylistic/eslint-stylistic/pull/1283): fix(key-spacing): align parenthesized type values from the opening paren.
 - [UnoCSS: 1 merged PR](https://github.com/unocss/unocss/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#5352](https://github.com/unocss/unocss/pull/5352): fix(core): expand scope placeholders in constructCSS output.
+- [git-extras: 1 merged PR](https://github.com/tj/git-extras/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#1283](https://github.com/tj/git-extras/pull/1283): fix: report usage as "git foo" for cp, psykorebase, get.
+- [kombu: 1 merged PR](https://github.com/celery/kombu/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#2850](https://github.com/celery/kombu/pull/2850): Add unit tests for AsyncAWSQueryConnection.get_list.
 
 ### Applications and agents
 
-11 merged PRs across 6 repositories.
+16 merged PRs across 9 repositories.
 
 - [neatroots: 3 merged PRs](https://github.com/neatlogs/neatroots/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#404](https://github.com/neatlogs/neatroots/pull/404): feat(checks): flag truncated model replies with finish_reason match rule (#386).
 - [Cap: 2 merged PRs](https://github.com/CapSoftware/Cap/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#2673](https://github.com/CapSoftware/Cap/pull/2673): perf(gpui): optimize screenshot alpha checks, flattening, and premultiplication.
@@ -158,6 +160,9 @@ The profile groups all 14 repositories below. Each repository strip opens its me
 - [Presidio: 2 merged PRs](https://github.com/data-privacy-stack/presidio/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#2311](https://github.com/data-privacy-stack/presidio/pull/2311): Document RECOGNIZER_REGISTRY_CONF_FILE override for the analyzer server.
 - [Mastra: 1 merged PR](https://github.com/mastra-ai/mastra/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#23791](https://github.com/mastra-ai/mastra/pull/23791): fix(memory): respect user-pinned thread titles in Observational Memory.
 - [Orca: 1 merged PR](https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#33223](https://github.com/stablyai/orca/pull/33223): fix(shortcuts): cycle floating workspace tabs on Ctrl+Tab when the floating panel is focused.
+- [skepsis: 3 merged PRs](https://github.com/ionpetro/skepsis/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#3](https://github.com/ionpetro/skepsis/pull/3): feat(geo): add llms.txt, llms-full.txt, speakable schema, and AI crawler directives.
+- [openclaw: 1 merged PR](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#189343](https://github.com/openclaw/openclaw/pull/189343): fix: sandbox explain reports channel=(unknown) and allowedByConfig=false for telegram slash sessions.
+- [ttt: 1 merged PR](https://github.com/eugenioenko/ttt/pulls?q=is%3Apr+is%3Amerged+author%3Anikolas-sapa). Highlight [#1600](https://github.com/eugenioenko/ttt/pull/1600): fix(changes): report binary files instead of rendering raw bytes.
 
 The aggregate includes fixes, features, tests and documentation. It is separate from the GitHub contribution totals below. The two excluded directory listings were in `Haustorium12/gold-402` and `birobirobiro/awesome-shadcn-ui`.
 
