@@ -1,12 +1,14 @@
 # Nikolas Sapalidis: full text and sources
 
-Profile snapshot: November 3, 2026. Counts are dated snapshots, not live counters.
+Profile snapshot: November 3, 2026, updated November 22, 2026. Counts are dated snapshots, not live counters.
 
 ## About
 
 17. Greece. Self-taught since January 2026.
 
 I build tools for AI agents and fix bugs in the tools I use.
+
+Looking for an internship at a VC-backed startup, preferably YC- or Speedrun (a16z)-backed, until I find my next entrepreneurial venture. [Contact](https://nikolassapalidis.tech/contact).
 
 ## Selected builds
 
@@ -65,7 +67,13 @@ Priority for this profile, not a measured quality score or business valuation. T
 
 The profile groups supporting entries into developer tools, applications and smaller experiments. Their numbers preserve the overall ranking below.
 
-★ [FIREYE](https://github.com/nikolas-sapa/FIREYE). Added after the hackathon; leads the profile ahead of the numbered ranking. Wildfire information for residents: live fire map, simulated alerts and lower-risk route handoff, replaying the Mati, Greece fire of 23 July 2018. Top 4 finalist of 50+ projects / 120+ selected participants at the [Gen AI Summit Hackathon](https://hackathon.polymath42.com/), Athens, November 2026; finals pitch to Google Maps co-creator Lars Rasmussen. Simulation only: not an emergency service or official evacuation advice, and routes and projections are not validated operational guidance. Live demo: https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian
+★ [FIREYE](https://github.com/nikolas-sapa/FIREYE). Added after the hackathon; leads the profile ahead of the numbered ranking. Wildfire information for residents: fire map, simulated alerts and lower-risk route handoff, replaying the Mati, Greece fire of 23 July 2018. 4th of 47 teams at the [Gen AI Summit Hackathon](https://hackathon.polymath42.com/), Athens, November 14–16, 2026 (9 teams reached the semifinals, 4 pitched in the finals). Built with Marco Serat; finals pitch on the GenAI Summit stage at SNFCC to Google Maps co-creator Lars Rasmussen. No prize claimed: prizes covered 1st to 3rd. Simulation only: not an emergency service or official evacuation advice, and routes and projections are not validated operational guidance. Live demo: https://nikolas-sapa.github.io/FIREYE/console.html?view=civilian · [Demo video](https://youtu.be/F1bdtWd3L4o)
+
+New, November 2026 (published after the ranking review, not yet ranked):
+
+- [ossfit](https://github.com/nikolas-sapa/ossfit). GitHub repo discovery ranked by fit, health and underrated potential. CLI, self-hosted web UI and MCP server in one npm package, with a shared scoring engine. Created November 18, 2026; no adoption claim is made.
+- [contribot](https://github.com/nikolas-sapa/contribot). Agent that onboards onto an open-source repo and prepares contributions under etiquette limits enforced in code. Draft PRs open on your own fork only, with AI disclosure, after the repo's own lint and tests. Created November 18, 2026; no adoption or merge claim is made.
+- [cinder](https://github.com/nikolas-sapa/cinder). E2E-encrypted terminal chat your agents can drive. Rust, Noise XX handshake, blind relay that only sees ciphertext, no accounts. Created November 18, 2026. Pre-1.0 and not externally audited. [Website](https://cinder-pi.vercel.app)
 
 1. [ns-ui](https://github.com/nikolas-sapa/ns-ui). 542 components, installed as editable source. Catalog size does not establish uniform component quality.
 
@@ -125,6 +133,8 @@ Branch AI's published npm version was 1.1.0 and Skillswitch's was 0.2.0 at this 
 ## Merged fixes upstream
 
 44 merged pull requests across 19 external repositories, excluding two directory-listing PRs. Including those listings: 46 merged PRs across 21 external repositories. Snapshot: November 17, 2026 (previously 35 across 14 on November 3). Own repositories are excluded from both upstream totals.
+
+Re-checked November 22, 2026: unchanged at 44 across 19, or 46 across 21 including the two listings. Query: `gh search prs --author nikolas-sapa --merged`, excluding `nikolas-sapa/` repositories. [Search results](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests).
 
 - [Full merged external PR history](https://github.com/search?q=is%3Apr+author%3Anikolas-sapa+is%3Amerged+-user%3Anikolas-sapa&type=pullrequests)
 
@@ -188,12 +198,25 @@ The study examines resumed agents acting on stale checkpoint summaries after che
 
 In the tested setup, templated provenance summaries reduced stale writes. Provenance instructions for model-written compaction did not resolve the problem. The report retains failed approaches and scorer corrections. This is not an externally replicated result or a demonstrated production fix.
 
+### co-train (ended November 18, 2026)
+
+Agent-cost research on agents that write code to call tools. Started September 20, 2026; about 200 commits.
+
+- [Source and eval infrastructure](https://github.com/nikolas-sapa/co-train)
+- [Pre-registration](https://osf.io/2hfzt)
+
+In small pre-registered runs, cost per solved task was 6–8× lower. The work found 13 instrument defects, including a +64-point instrument error, and published a negative result. A final premise check scored code-calling 14/14 against bash 12/14 at n=14, statistically inseparable.
+
+I stopped on November 18, 2026, when Anthropic shipped [Code Mode](https://code.claude.com/docs/en/code-mode) in Claude Code (experimental), which does the core of what co-train measured and built on. The results are past work; the repository stays public as eval infrastructure.
+
 ## A short history
 
 - April 2025: Foodsave, a near-expiry food marketplace concept. Solo entry, top 5 of 100+ teams in the Crazy Business Ideas entrepreneurship contest.
 - January 2026: Started teaching myself to code.
 - February 2026: First paying website client.
 - September 2026: Four paying clients and about €2,000 earned.
+- September to November 2026: co-train, ended November 18, 2026.
+- November 2026: 4th of 47 teams at the Gen AI Summit Hackathon, Athens, with FIREYE (team of two, with Marco Serat).
 
 Earlier study: SCAT Advanced Quantitative in 2024; CTY Greece Probability & Game Theory in June 2024; Economics & Entrepreneurship in January 2025.
 
@@ -216,7 +239,7 @@ Fields: `contributionCalendar.totalContributions`, `totalPullRequestContribution
 
 [GitHub contributions collection documentation](https://docs.github.com/en/graphql/reference/objects#contributionscollection)
 
-433 PR contributions is not an upstream merge count. The separate external merged-PR total is 35/14, or 37/16 including the two directory listings.
+433 PR contributions is not an upstream merge count. The separate external merged-PR total is 35/14, or 37/16 including the two directory listings (November 3; 44/19 and 46/21 as of November 22).
 
 ### npm: November 3, 2025 through November 3, 2026
 
